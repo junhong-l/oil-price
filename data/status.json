@@ -1,0 +1,155 @@
+{
+  "run_started_at": "2026-11-09T12:18:09.577156+08:00",
+  "run_finished_at": "2026-11-09T12:19:08.914286+08:00",
+  "overall_status": "success",
+  "fatal_error": null,
+  "regions": {
+    "510100": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "510300": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "510400": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "510500": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "510600": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "510700": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "510800": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "510900": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "511000": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "511100": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "511300": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "511400": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "511500": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "511600": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "511700": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "511800": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "511900": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "512000": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "513200": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "513300": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    },
+    "513400": {
+      "province_code": "510000",
+      "last_attempt_at": "2026-11-09T12:18:09.577156+08:00",
+      "last_success_at": "2026-11-09T12:18:09.577156+08:00",
+      "error": null,
+      "stale": false
+    }
+  }
+}

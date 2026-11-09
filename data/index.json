@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-11-09T12:19:08.914286+08:00",
+  "configured_provinces_complete": true,
+  "provinces": [
+    {
+      "province_code": "510000",
+      "province": "四川省",
+      "path": "provinces/510000.json",
+      "expected_cities": 21,
+      "successful_cities": 21,
+      "missing_cities": [],
+      "province_page_ok": true
+    }
+  ]
+}

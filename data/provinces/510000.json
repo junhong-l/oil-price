@@ -1,0 +1,367 @@
+{
+  "province": "四川省",
+  "province_code": "510000",
+  "currency": "CNY",
+  "cities": [
+    {
+      "city_name": "成都市",
+      "city_code": "510100",
+      "source_url": "http://www.qiyoujiage.com/sichuan/chengdu.shtml",
+      "current_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.59,
+        "gasoline_98": 10.95,
+        "diesel_0": 8.62
+      },
+      "next_prices": {
+        "gasoline_92": 9.06,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.7
+      }
+    },
+    {
+      "city_name": "自贡市",
+      "city_code": "510300",
+      "source_url": "http://www.qiyoujiage.com/sichuan/zigong.shtml",
+      "current_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.59,
+        "gasoline_98": 10.95,
+        "diesel_0": 8.62
+      },
+      "next_prices": {
+        "gasoline_92": 9.06,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.7
+      }
+    },
+    {
+      "city_name": "攀枝花市",
+      "city_code": "510400",
+      "source_url": "http://www.qiyoujiage.com/sichuan/panzhihua.shtml",
+      "current_prices": {
+        "gasoline_92": 9.05,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.71
+      },
+      "next_prices": {
+        "gasoline_92": 9.13,
+        "gasoline_95": 9.75,
+        "gasoline_98": 11.11,
+        "diesel_0": 8.79
+      }
+    },
+    {
+      "city_name": "泸州市",
+      "city_code": "510500",
+      "source_url": "http://www.qiyoujiage.com/sichuan/luzhou.shtml",
+      "current_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.59,
+        "gasoline_98": 10.95,
+        "diesel_0": 8.62
+      },
+      "next_prices": {
+        "gasoline_92": 9.06,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.7
+      }
+    },
+    {
+      "city_name": "德阳市",
+      "city_code": "510600",
+      "source_url": "http://www.qiyoujiage.com/sichuan/deyang.shtml",
+      "current_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.59,
+        "gasoline_98": 10.95,
+        "diesel_0": 8.62
+      },
+      "next_prices": {
+        "gasoline_92": 9.06,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.7
+      }
+    },
+    {
+      "city_name": "绵阳市",
+      "city_code": "510700",
+      "source_url": "http://www.qiyoujiage.com/sichuan/mianyang.shtml",
+      "current_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.59,
+        "gasoline_98": 10.95,
+        "diesel_0": 8.62
+      },
+      "next_prices": {
+        "gasoline_92": 9.06,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.7
+      }
+    },
+    {
+      "city_name": "广元市",
+      "city_code": "510800",
+      "source_url": "http://www.qiyoujiage.com/sichuan/guangyuan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.59,
+        "gasoline_98": 10.95,
+        "diesel_0": 8.62
+      },
+      "next_prices": {
+        "gasoline_92": 9.06,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.7
+      }
+    },
+    {
+      "city_name": "遂宁市",
+      "city_code": "510900",
+      "source_url": "http://www.qiyoujiage.com/sichuan/suining.shtml",
+      "current_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.59,
+        "gasoline_98": 10.95,
+        "diesel_0": 8.62
+      },
+      "next_prices": {
+        "gasoline_92": 9.06,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.7
+      }
+    },
+    {
+      "city_name": "内江市",
+      "city_code": "511000",
+      "source_url": "http://www.qiyoujiage.com/sichuan/neijiang.shtml",
+      "current_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.59,
+        "gasoline_98": 10.95,
+        "diesel_0": 8.62
+      },
+      "next_prices": {
+        "gasoline_92": 9.06,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.7
+      }
+    },
+    {
+      "city_name": "乐山市",
+      "city_code": "511100",
+      "source_url": "http://www.qiyoujiage.com/sichuan/leshan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.59,
+        "gasoline_98": 10.95,
+        "diesel_0": 8.62
+      },
+      "next_prices": {
+        "gasoline_92": 9.06,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.7
+      }
+    },
+    {
+      "city_name": "南充市",
+      "city_code": "511300",
+      "source_url": "http://www.qiyoujiage.com/sichuan/nanchong.shtml",
+      "current_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.59,
+        "gasoline_98": 10.95,
+        "diesel_0": 8.62
+      },
+      "next_prices": {
+        "gasoline_92": 9.06,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.7
+      }
+    },
+    {
+      "city_name": "眉山市",
+      "city_code": "511400",
+      "source_url": "http://www.qiyoujiage.com/sichuan/meishan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.59,
+        "gasoline_98": 10.95,
+        "diesel_0": 8.62
+      },
+      "next_prices": {
+        "gasoline_92": 9.06,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.7
+      }
+    },
+    {
+      "city_name": "宜宾市",
+      "city_code": "511500",
+      "source_url": "http://www.qiyoujiage.com/sichuan/yibin.shtml",
+      "current_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.59,
+        "gasoline_98": 10.95,
+        "diesel_0": 8.62
+      },
+      "next_prices": {
+        "gasoline_92": 9.06,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.7
+      }
+    },
+    {
+      "city_name": "广安市",
+      "city_code": "511600",
+      "source_url": "http://www.qiyoujiage.com/sichuan/guangan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.59,
+        "gasoline_98": 10.95,
+        "diesel_0": 8.62
+      },
+      "next_prices": {
+        "gasoline_92": 9.06,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.7
+      }
+    },
+    {
+      "city_name": "达州市",
+      "city_code": "511700",
+      "source_url": "http://www.qiyoujiage.com/sichuan/dazhou.shtml",
+      "current_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.59,
+        "gasoline_98": 10.95,
+        "diesel_0": 8.62
+      },
+      "next_prices": {
+        "gasoline_92": 9.06,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.7
+      }
+    },
+    {
+      "city_name": "雅安市",
+      "city_code": "511800",
+      "source_url": "http://www.qiyoujiage.com/sichuan/yaan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.59,
+        "gasoline_98": 10.95,
+        "diesel_0": 8.62
+      },
+      "next_prices": {
+        "gasoline_92": 9.06,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.7
+      }
+    },
+    {
+      "city_name": "巴中市",
+      "city_code": "511900",
+      "source_url": "http://www.qiyoujiage.com/sichuan/bazhong.shtml",
+      "current_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.59,
+        "gasoline_98": 10.95,
+        "diesel_0": 8.62
+      },
+      "next_prices": {
+        "gasoline_92": 9.06,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.7
+      }
+    },
+    {
+      "city_name": "资阳市",
+      "city_code": "512000",
+      "source_url": "http://www.qiyoujiage.com/sichuan/ziyang.shtml",
+      "current_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.59,
+        "gasoline_98": 10.95,
+        "diesel_0": 8.62
+      },
+      "next_prices": {
+        "gasoline_92": 9.06,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.7
+      }
+    },
+    {
+      "city_name": "阿坝藏族羌族自治州",
+      "city_code": "513200",
+      "source_url": "http://www.qiyoujiage.com/sichuan/aba.shtml",
+      "current_prices": {
+        "gasoline_92": 9.13,
+        "gasoline_95": 9.75,
+        "gasoline_98": 11.04,
+        "diesel_0": 8.79
+      },
+      "next_prices": {
+        "gasoline_92": 9.21,
+        "gasoline_95": 9.83,
+        "gasoline_98": 11.12,
+        "diesel_0": 8.87
+      }
+    },
+    {
+      "city_name": "甘孜藏族自治州",
+      "city_code": "513300",
+      "source_url": "http://www.qiyoujiage.com/sichuan/ganzi.shtml",
+      "current_prices": {
+        "gasoline_92": 9.13,
+        "gasoline_95": 9.75,
+        "gasoline_98": 11.04,
+        "diesel_0": 8.79
+      },
+      "next_prices": {
+        "gasoline_92": 9.21,
+        "gasoline_95": 9.83,
+        "gasoline_98": 11.12,
+        "diesel_0": 8.87
+      }
+    },
+    {
+      "city_name": "凉山彝族自治州",
+      "city_code": "513400",
+      "source_url": "http://www.qiyoujiage.com/sichuan/liangshan.shtml",
+      "current_prices": {
+        "gasoline_92": 9.05,
+        "gasoline_95": 9.67,
+        "gasoline_98": 11.03,
+        "diesel_0": 8.71
+      },
+      "next_prices": {
+        "gasoline_92": 9.13,
+        "gasoline_95": 9.75,
+        "gasoline_98": 11.11,
+        "diesel_0": 8.79
+      }
+    }
+  ],
+  "next_forecast": "up",
+  "next_adjustment_at": "2026-11-13T00:00:00+08:00",
+  "fetched_at": "2026-11-09T12:18:09.577156+08:00"
+}
