@@ -151,6 +151,28 @@ class CollectorTests(unittest.TestCase):
                    sleep=no_sleep, delay=0)
         self.assertEqual(code, EXIT_FAILED)
 
+    def test_uniform_province_fetches_only_province_page(self):
+        config = json.loads(self.config.read_text(encoding="utf-8"))
+        config["provinces"][0]["uniform_pricing"] = True
+        config["provinces"][0]["source_region_name"] = "四川"
+        self.config.write_text(json.dumps(config, ensure_ascii=False), encoding="utf-8")
+        # Only the province page is routed; any city request raises KeyError.
+        routes = {PROVINCE_URL: (200, fixture("sichuan.html"))}
+        code = self.run_with(routes)
+        self.assertEqual(code, EXIT_OK)
+
+        province = self.load("provinces/510000.json")
+        self.assertTrue(province["uniform_pricing"])
+        self.assertEqual(province["cities"], [])
+        self.assertIsNotNone(province["current_prices"]["gasoline_92"])
+        self.assertEqual(province["fetched_at"], NOW.astimezone(BEIJING).isoformat())
+        index = self.load("index.json")["provinces"][0]
+        self.assertEqual(index["expected_cities"], 2)
+        self.assertEqual(index["successful_cities"], 2)
+        status = self.load("status.json")["regions"]
+        self.assertIsNone(status["510100"]["error"])
+        self.assertIsNone(status["513300"]["error"])
+
 
 if __name__ == "__main__":
     unittest.main()

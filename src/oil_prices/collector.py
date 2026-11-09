@@ -121,6 +121,7 @@ def collect_province(province_cfg, data_dir, now, session, sleep, delay):
         "province": province_cfg["province"],
         "province_code": code,
         "currency": "CNY",
+        "uniform_pricing": False,
         "cities": cities_out,
         "next_forecast": next_forecast,
         "next_adjustment_at": next_adjustment_at,
@@ -134,6 +135,55 @@ def collect_province(province_cfg, data_dir, now, session, sleep, delay):
             "stale": True,
         }
     return payload, city_status, all_ok, province_page_ok
+
+
+def collect_uniform_province(province_cfg, data_dir, now, session, sleep, delay):
+    """Fetch only the province page for a province with one price for all cities.
+
+    Return (payload, city_status, all_ok, province_page_ok) like collect_province.
+    """
+    code = province_cfg["province_code"]
+    previous = load_json(data_dir / "provinces" / f"{code}.json") or {}
+    attempt_at = iso(now)
+    sleep(delay + random.uniform(0, REQUEST_JITTER_SECONDS))
+    try:
+        html = fetch_html(session, province_cfg["province_source_url"], sleep=sleep)
+        prices = parse_city_prices(html, province_cfg["source_region_name"])
+        next_forecast, next_adjustment_at = parse_notice(html, now)
+        next_change = parse_max_change_per_liter(html)
+        next_prices = estimate_next_prices(prices, next_forecast, next_change, next_adjustment_at, now)
+        error = None
+    except FatalFetchError:
+        raise
+    except (FetchError, ParseError) as exc:
+        error = str(exc)
+        prices = previous.get("current_prices", empty_prices())
+        next_prices = previous.get("next_prices", empty_prices())
+        next_forecast = previous.get("next_forecast")
+        next_adjustment_at = previous.get("next_adjustment_at")
+
+    city_status = {}
+    for city_cfg in province_cfg["cities"]:
+        city_status[city_cfg["city_code"]] = {
+            "last_attempt_at": attempt_at,
+            "last_success_at": None if error else attempt_at,
+            "error": error,
+            "stale": error is not None and bool(previous),
+        }
+
+    payload = {
+        "province": province_cfg["province"],
+        "province_code": code,
+        "currency": "CNY",
+        "uniform_pricing": True,
+        "current_prices": prices,
+        "next_prices": next_prices,
+        "cities": [],
+        "next_forecast": next_forecast,
+        "next_adjustment_at": next_adjustment_at,
+        "fetched_at": iso(now) if error is None else previous.get("fetched_at"),
+    }
+    return payload, city_status, error is None, error is None
 
 
 def run(config_path, data_dir, now=None, session=None, sleep=time.sleep,
@@ -156,8 +206,9 @@ def run(config_path, data_dir, now=None, session=None, sleep=time.sleep,
     fatal_error = None
 
     for province_cfg in provinces:
+        collect = collect_uniform_province if province_cfg.get("uniform_pricing") else collect_province
         try:
-            payload, status, all_ok, province_page_ok = collect_province(
+            payload, status, all_ok, province_page_ok = collect(
                 province_cfg, data_dir, now, session, sleep, delay,
             )
         except FatalFetchError as exc:
@@ -166,10 +217,10 @@ def run(config_path, data_dir, now=None, session=None, sleep=time.sleep,
 
         write_json_atomic(data_dir / "provinces" / f"{payload['province_code']}.json", payload)
 
+        configured_codes = [c["city_code"] for c in province_cfg["cities"]]
         successful = []
         missing = []
-        for city in payload["cities"]:
-            code = city["city_code"]
+        for code in configured_codes:
             entry = status.get(code)
             prior = previous_status.get("regions", {}).get(code, {})
             if entry is None:
@@ -194,8 +245,9 @@ def run(config_path, data_dir, now=None, session=None, sleep=time.sleep,
         index_entries.append({
             "province_code": payload["province_code"],
             "province": payload["province"],
+            "uniform_pricing": payload["uniform_pricing"],
             "path": f"provinces/{payload['province_code']}.json",
-            "expected_cities": len(payload["cities"]),
+            "expected_cities": len(configured_codes),
             "successful_cities": len(successful),
             "missing_cities": missing,
             "province_page_ok": province_page_ok,

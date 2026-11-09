@@ -22,7 +22,9 @@ Exit codes: `0` all configured cities succeeded, `1` partial failure (stale data
 
 ## Configuration
 
-`config/regions.json` lists provinces and their cities. Each city has a `source_region_name`, which must match the label prefix on the source page (for example `成都` in `成都92#汽油`). The config covers all 31 provinces, autonomous regions and municipalities (343 cities). The city codes and URL paths were written from memory and are not verified against an official GB/T 2260 list or the live site; `code_verified` is `false` for every province. The first Action run is the validation step: any city whose page does not exist or whose label does not match `source_region_name` shows up as failed in `data/status.json` and `data/index.json`, and should then be corrected in the config.
+`config/regions.json` lists provinces and their cities. Each city has a `source_region_name`, which must match the label prefix on the source page (for example `成都` in `成都92#汽油`).
+
+Each province has `uniform_pricing`. When it is `true`, only the province page is fetched, and that one price is used for every city in the province; the province's `source_region_name` is the label prefix on its page (for example `河北`). The province file then has `cities: []`. When it is `false` (内蒙古, 辽宁, 黑龙江, 四川, 贵州, 云南, 西藏, 陕西, 青海, 新疆), each city is fetched separately. The config covers all 31 provinces, autonomous regions and municipalities (343 cities). The city codes and URL paths were written from memory and are not verified against an official GB/T 2260 list or the live site; `code_verified` is `false` for every province. The first Action run is the validation step: any city whose page does not exist or whose label does not match `source_region_name` shows up as failed in `data/status.json` and `data/index.json`, and should then be corrected in the config.
 
 ## Output
 
