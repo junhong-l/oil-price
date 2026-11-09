@@ -427,7 +427,7 @@
        {"city_name": "伊犁哈萨克自治州", "city_code": "654000", "source_region_name": "伊犁", "source_url": "http://www.qiyoujiage.com/xinjiang/ili.shtml"},
        {"city_name": "塔城地区", "city_code": "654200", "source_region_name": "塔城", "source_url": "http://www.qiyoujiage.com/xinjiang/tacheng.shtml"},
        {"city_name": "阿勒泰地区", "city_code": "654300", "source_region_name": "阿勒泰", "source_url": "http://www.qiyoujiage.com/xinjiang/altay.shtml"},
-       {"city_name": "石河子市", "city_code": "659001", "source_region_name": "石河子", "source_url": "http://www.qiyoujiage.com/xinjiang/shihezi.shtml"}
+       {"city_name": "石河子市", "city_code": "659001", "source_region_name": "石河子", "source_url": "http://www.qiyoujiage.com/xinjiang.shtml"}
      ]}
   ]
 }
