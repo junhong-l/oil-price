@@ -1,0 +1,163 @@
+{
+  "province": "吉林省",
+  "province_code": "220000",
+  "currency": "CNY",
+  "cities": [
+    {
+      "city_name": "长春市",
+      "city_code": "220100",
+      "source_url": "http://www.qiyoujiage.com/jilin/changchun.shtml",
+      "current_prices": {
+        "gasoline_92": 8.85,
+        "gasoline_95": 9.55,
+        "gasoline_98": 10.4,
+        "diesel_0": 8.5
+      },
+      "next_prices": {
+        "gasoline_92": 8.93,
+        "gasoline_95": 9.63,
+        "gasoline_98": 10.48,
+        "diesel_0": 8.58
+      }
+    },
+    {
+      "city_name": "吉林市",
+      "city_code": "220200",
+      "source_url": "http://www.qiyoujiage.com/jilin/jilin.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "四平市",
+      "city_code": "220300",
+      "source_url": "http://www.qiyoujiage.com/jilin/siping.shtml",
+      "current_prices": {
+        "gasoline_92": 8.85,
+        "gasoline_95": 9.55,
+        "gasoline_98": 10.4,
+        "diesel_0": 8.5
+      },
+      "next_prices": {
+        "gasoline_92": 8.93,
+        "gasoline_95": 9.63,
+        "gasoline_98": 10.48,
+        "diesel_0": 8.58
+      }
+    },
+    {
+      "city_name": "辽源市",
+      "city_code": "220400",
+      "source_url": "http://www.qiyoujiage.com/jilin/liaoyuan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.85,
+        "gasoline_95": 9.55,
+        "gasoline_98": 10.4,
+        "diesel_0": 8.5
+      },
+      "next_prices": {
+        "gasoline_92": 8.93,
+        "gasoline_95": 9.63,
+        "gasoline_98": 10.48,
+        "diesel_0": 8.58
+      }
+    },
+    {
+      "city_name": "通化市",
+      "city_code": "220500",
+      "source_url": "http://www.qiyoujiage.com/jilin/tonghua.shtml",
+      "current_prices": {
+        "gasoline_92": 8.85,
+        "gasoline_95": 9.55,
+        "gasoline_98": 10.4,
+        "diesel_0": 8.5
+      },
+      "next_prices": {
+        "gasoline_92": 8.93,
+        "gasoline_95": 9.63,
+        "gasoline_98": 10.48,
+        "diesel_0": 8.58
+      }
+    },
+    {
+      "city_name": "白山市",
+      "city_code": "220600",
+      "source_url": "http://www.qiyoujiage.com/jilin/baishan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.85,
+        "gasoline_95": 9.55,
+        "gasoline_98": 10.4,
+        "diesel_0": 8.5
+      },
+      "next_prices": {
+        "gasoline_92": 8.93,
+        "gasoline_95": 9.63,
+        "gasoline_98": 10.48,
+        "diesel_0": 8.58
+      }
+    },
+    {
+      "city_name": "松原市",
+      "city_code": "220700",
+      "source_url": "http://www.qiyoujiage.com/jilin/songyuan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.85,
+        "gasoline_95": 9.55,
+        "gasoline_98": 10.4,
+        "diesel_0": 8.5
+      },
+      "next_prices": {
+        "gasoline_92": 8.93,
+        "gasoline_95": 9.63,
+        "gasoline_98": 10.48,
+        "diesel_0": 8.58
+      }
+    },
+    {
+      "city_name": "白城市",
+      "city_code": "220800",
+      "source_url": "http://www.qiyoujiage.com/jilin/baicheng.shtml",
+      "current_prices": {
+        "gasoline_92": 8.85,
+        "gasoline_95": 9.55,
+        "gasoline_98": 10.4,
+        "diesel_0": 8.5
+      },
+      "next_prices": {
+        "gasoline_92": 8.93,
+        "gasoline_95": 9.63,
+        "gasoline_98": 10.48,
+        "diesel_0": 8.58
+      }
+    },
+    {
+      "city_name": "延边朝鲜族自治州",
+      "city_code": "222400",
+      "source_url": "http://www.qiyoujiage.com/jilin/yanbian.shtml",
+      "current_prices": {
+        "gasoline_92": 8.85,
+        "gasoline_95": 9.55,
+        "gasoline_98": 10.4,
+        "diesel_0": 8.5
+      },
+      "next_prices": {
+        "gasoline_92": 8.93,
+        "gasoline_95": 9.63,
+        "gasoline_98": 10.48,
+        "diesel_0": 8.58
+      }
+    }
+  ],
+  "next_forecast": "up",
+  "next_adjustment_at": "2026-11-13T00:00:00+08:00",
+  "fetched_at": null
+}

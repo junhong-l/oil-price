@@ -1,0 +1,248 @@
+{
+  "province": "湖南省",
+  "province_code": "430000",
+  "currency": "CNY",
+  "cities": [
+    {
+      "city_name": "长沙市",
+      "city_code": "430100",
+      "source_url": "http://www.qiyoujiage.com/hunan/changsha.shtml",
+      "current_prices": {
+        "gasoline_92": 8.83,
+        "gasoline_95": 9.38,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.66
+      },
+      "next_prices": {
+        "gasoline_92": 8.91,
+        "gasoline_95": 9.46,
+        "gasoline_98": 10.66,
+        "diesel_0": 8.74
+      }
+    },
+    {
+      "city_name": "株洲市",
+      "city_code": "430200",
+      "source_url": "http://www.qiyoujiage.com/hunan/zhuzhou.shtml",
+      "current_prices": {
+        "gasoline_92": 8.83,
+        "gasoline_95": 9.38,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.66
+      },
+      "next_prices": {
+        "gasoline_92": 8.91,
+        "gasoline_95": 9.46,
+        "gasoline_98": 10.66,
+        "diesel_0": 8.74
+      }
+    },
+    {
+      "city_name": "湘潭市",
+      "city_code": "430300",
+      "source_url": "http://www.qiyoujiage.com/hunan/xiangtan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.83,
+        "gasoline_95": 9.38,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.66
+      },
+      "next_prices": {
+        "gasoline_92": 8.91,
+        "gasoline_95": 9.46,
+        "gasoline_98": 10.66,
+        "diesel_0": 8.74
+      }
+    },
+    {
+      "city_name": "衡阳市",
+      "city_code": "430400",
+      "source_url": "http://www.qiyoujiage.com/hunan/hengyang.shtml",
+      "current_prices": {
+        "gasoline_92": 8.83,
+        "gasoline_95": 9.38,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.66
+      },
+      "next_prices": {
+        "gasoline_92": 8.91,
+        "gasoline_95": 9.46,
+        "gasoline_98": 10.66,
+        "diesel_0": 8.74
+      }
+    },
+    {
+      "city_name": "邵阳市",
+      "city_code": "430500",
+      "source_url": "http://www.qiyoujiage.com/hunan/shaoyang.shtml",
+      "current_prices": {
+        "gasoline_92": 8.83,
+        "gasoline_95": 9.38,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.66
+      },
+      "next_prices": {
+        "gasoline_92": 8.91,
+        "gasoline_95": 9.46,
+        "gasoline_98": 10.66,
+        "diesel_0": 8.74
+      }
+    },
+    {
+      "city_name": "岳阳市",
+      "city_code": "430600",
+      "source_url": "http://www.qiyoujiage.com/hunan/yueyang.shtml",
+      "current_prices": {
+        "gasoline_92": 8.83,
+        "gasoline_95": 9.38,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.66
+      },
+      "next_prices": {
+        "gasoline_92": 8.91,
+        "gasoline_95": 9.46,
+        "gasoline_98": 10.66,
+        "diesel_0": 8.74
+      }
+    },
+    {
+      "city_name": "常德市",
+      "city_code": "430700",
+      "source_url": "http://www.qiyoujiage.com/hunan/changde.shtml",
+      "current_prices": {
+        "gasoline_92": 8.83,
+        "gasoline_95": 9.38,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.66
+      },
+      "next_prices": {
+        "gasoline_92": 8.91,
+        "gasoline_95": 9.46,
+        "gasoline_98": 10.66,
+        "diesel_0": 8.74
+      }
+    },
+    {
+      "city_name": "张家界市",
+      "city_code": "430800",
+      "source_url": "http://www.qiyoujiage.com/hunan/zhangjiajie.shtml",
+      "current_prices": {
+        "gasoline_92": 8.83,
+        "gasoline_95": 9.38,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.66
+      },
+      "next_prices": {
+        "gasoline_92": 8.91,
+        "gasoline_95": 9.46,
+        "gasoline_98": 10.66,
+        "diesel_0": 8.74
+      }
+    },
+    {
+      "city_name": "益阳市",
+      "city_code": "430900",
+      "source_url": "http://www.qiyoujiage.com/hunan/yiyang.shtml",
+      "current_prices": {
+        "gasoline_92": 8.83,
+        "gasoline_95": 9.38,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.66
+      },
+      "next_prices": {
+        "gasoline_92": 8.91,
+        "gasoline_95": 9.46,
+        "gasoline_98": 10.66,
+        "diesel_0": 8.74
+      }
+    },
+    {
+      "city_name": "郴州市",
+      "city_code": "431000",
+      "source_url": "http://www.qiyoujiage.com/hunan/chenzhou.shtml",
+      "current_prices": {
+        "gasoline_92": 8.83,
+        "gasoline_95": 9.38,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.66
+      },
+      "next_prices": {
+        "gasoline_92": 8.91,
+        "gasoline_95": 9.46,
+        "gasoline_98": 10.66,
+        "diesel_0": 8.74
+      }
+    },
+    {
+      "city_name": "永州市",
+      "city_code": "431100",
+      "source_url": "http://www.qiyoujiage.com/hunan/yongzhou.shtml",
+      "current_prices": {
+        "gasoline_92": 8.83,
+        "gasoline_95": 9.38,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.66
+      },
+      "next_prices": {
+        "gasoline_92": 8.91,
+        "gasoline_95": 9.46,
+        "gasoline_98": 10.66,
+        "diesel_0": 8.74
+      }
+    },
+    {
+      "city_name": "怀化市",
+      "city_code": "431200",
+      "source_url": "http://www.qiyoujiage.com/hunan/huaihua.shtml",
+      "current_prices": {
+        "gasoline_92": 8.83,
+        "gasoline_95": 9.38,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.66
+      },
+      "next_prices": {
+        "gasoline_92": 8.91,
+        "gasoline_95": 9.46,
+        "gasoline_98": 10.66,
+        "diesel_0": 8.74
+      }
+    },
+    {
+      "city_name": "娄底市",
+      "city_code": "431300",
+      "source_url": "http://www.qiyoujiage.com/hunan/loudi.shtml",
+      "current_prices": {
+        "gasoline_92": 8.83,
+        "gasoline_95": 9.38,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.66
+      },
+      "next_prices": {
+        "gasoline_92": 8.91,
+        "gasoline_95": 9.46,
+        "gasoline_98": 10.66,
+        "diesel_0": 8.74
+      }
+    },
+    {
+      "city_name": "湘西土家族苗族自治州",
+      "city_code": "433100",
+      "source_url": "http://www.qiyoujiage.com/hunan/xiangxi.shtml",
+      "current_prices": {
+        "gasoline_92": 8.83,
+        "gasoline_95": 9.38,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.66
+      },
+      "next_prices": {
+        "gasoline_92": 8.91,
+        "gasoline_95": 9.46,
+        "gasoline_98": 10.66,
+        "diesel_0": 8.74
+      }
+    }
+  ],
+  "next_forecast": "up",
+  "next_adjustment_at": "2026-11-13T00:00:00+08:00",
+  "fetched_at": "2026-11-09T12:29:12.976352+08:00"
+}

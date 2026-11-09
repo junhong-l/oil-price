@@ -1,0 +1,180 @@
+{
+  "province": "陕西省",
+  "province_code": "610000",
+  "currency": "CNY",
+  "cities": [
+    {
+      "city_name": "西安市",
+      "city_code": "610100",
+      "source_url": "http://www.qiyoujiage.com/shaanxi/xian.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "铜川市",
+      "city_code": "610200",
+      "source_url": "http://www.qiyoujiage.com/shaanxi/tongchuan.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "宝鸡市",
+      "city_code": "610300",
+      "source_url": "http://www.qiyoujiage.com/shaanxi/baoji.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "咸阳市",
+      "city_code": "610400",
+      "source_url": "http://www.qiyoujiage.com/shaanxi/xianyang.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "渭南市",
+      "city_code": "610500",
+      "source_url": "http://www.qiyoujiage.com/shaanxi/weinan.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "延安市",
+      "city_code": "610600",
+      "source_url": "http://www.qiyoujiage.com/shaanxi/yanan.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "汉中市",
+      "city_code": "610700",
+      "source_url": "http://www.qiyoujiage.com/shaanxi/hanzhong.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "榆林市",
+      "city_code": "610800",
+      "source_url": "http://www.qiyoujiage.com/shaanxi/yulin.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "安康市",
+      "city_code": "610900",
+      "source_url": "http://www.qiyoujiage.com/shaanxi/ankang.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "商洛市",
+      "city_code": "611000",
+      "source_url": "http://www.qiyoujiage.com/shaanxi/shangluo.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    }
+  ],
+  "next_forecast": null,
+  "next_adjustment_at": null,
+  "fetched_at": null
+}

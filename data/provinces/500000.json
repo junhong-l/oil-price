@@ -1,0 +1,27 @@
+{
+  "province": "重庆市",
+  "province_code": "500000",
+  "currency": "CNY",
+  "cities": [
+    {
+      "city_name": "重庆市",
+      "city_code": "500000",
+      "source_url": "http://www.qiyoujiage.com/chongqing.shtml",
+      "current_prices": {
+        "gasoline_92": 8.94,
+        "gasoline_95": 9.45,
+        "gasoline_98": 11.4,
+        "diesel_0": 8.64
+      },
+      "next_prices": {
+        "gasoline_92": 9.02,
+        "gasoline_95": 9.53,
+        "gasoline_98": 11.48,
+        "diesel_0": 8.72
+      }
+    }
+  ],
+  "next_forecast": "up",
+  "next_adjustment_at": "2026-11-13T00:00:00+08:00",
+  "fetched_at": "2026-11-09T12:29:12.976352+08:00"
+}

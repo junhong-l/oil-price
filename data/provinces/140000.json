@@ -1,0 +1,197 @@
+{
+  "province": "山西省",
+  "province_code": "140000",
+  "currency": "CNY",
+  "cities": [
+    {
+      "city_name": "太原市",
+      "city_code": "140100",
+      "source_url": "http://www.qiyoujiage.com/shanxi/taiyuan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.82,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.71,
+        "diesel_0": 8.67
+      },
+      "next_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.79,
+        "diesel_0": 8.75
+      }
+    },
+    {
+      "city_name": "大同市",
+      "city_code": "140200",
+      "source_url": "http://www.qiyoujiage.com/shanxi/datong.shtml",
+      "current_prices": {
+        "gasoline_92": 8.82,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.71,
+        "diesel_0": 8.67
+      },
+      "next_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.79,
+        "diesel_0": 8.75
+      }
+    },
+    {
+      "city_name": "阳泉市",
+      "city_code": "140300",
+      "source_url": "http://www.qiyoujiage.com/shanxi/yangquan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.82,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.71,
+        "diesel_0": 8.67
+      },
+      "next_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.79,
+        "diesel_0": 8.75
+      }
+    },
+    {
+      "city_name": "长治市",
+      "city_code": "140400",
+      "source_url": "http://www.qiyoujiage.com/shanxi/changzhi.shtml",
+      "current_prices": {
+        "gasoline_92": 8.82,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.71,
+        "diesel_0": 8.67
+      },
+      "next_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.79,
+        "diesel_0": 8.75
+      }
+    },
+    {
+      "city_name": "晋城市",
+      "city_code": "140500",
+      "source_url": "http://www.qiyoujiage.com/shanxi/jincheng.shtml",
+      "current_prices": {
+        "gasoline_92": 8.82,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.71,
+        "diesel_0": 8.67
+      },
+      "next_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.79,
+        "diesel_0": 8.75
+      }
+    },
+    {
+      "city_name": "朔州市",
+      "city_code": "140600",
+      "source_url": "http://www.qiyoujiage.com/shanxi/shuozhou.shtml",
+      "current_prices": {
+        "gasoline_92": 8.82,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.71,
+        "diesel_0": 8.67
+      },
+      "next_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.79,
+        "diesel_0": 8.75
+      }
+    },
+    {
+      "city_name": "晋中市",
+      "city_code": "140700",
+      "source_url": "http://www.qiyoujiage.com/shanxi/jinzhong.shtml",
+      "current_prices": {
+        "gasoline_92": 8.82,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.71,
+        "diesel_0": 8.67
+      },
+      "next_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.79,
+        "diesel_0": 8.75
+      }
+    },
+    {
+      "city_name": "运城市",
+      "city_code": "140800",
+      "source_url": "http://www.qiyoujiage.com/shanxi/yuncheng.shtml",
+      "current_prices": {
+        "gasoline_92": 8.82,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.71,
+        "diesel_0": 8.67
+      },
+      "next_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.79,
+        "diesel_0": 8.75
+      }
+    },
+    {
+      "city_name": "忻州市",
+      "city_code": "140900",
+      "source_url": "http://www.qiyoujiage.com/shanxi/xinzhou.shtml",
+      "current_prices": {
+        "gasoline_92": 8.82,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.71,
+        "diesel_0": 8.67
+      },
+      "next_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.79,
+        "diesel_0": 8.75
+      }
+    },
+    {
+      "city_name": "临汾市",
+      "city_code": "141000",
+      "source_url": "http://www.qiyoujiage.com/shanxi/linfen.shtml",
+      "current_prices": {
+        "gasoline_92": 8.82,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.71,
+        "diesel_0": 8.67
+      },
+      "next_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.79,
+        "diesel_0": 8.75
+      }
+    },
+    {
+      "city_name": "吕梁市",
+      "city_code": "141100",
+      "source_url": "http://www.qiyoujiage.com/shanxi/lvliang.shtml",
+      "current_prices": {
+        "gasoline_92": 8.82,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.71,
+        "diesel_0": 8.67
+      },
+      "next_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.79,
+        "diesel_0": 8.75
+      }
+    }
+  ],
+  "next_forecast": "up",
+  "next_adjustment_at": "2026-11-13T00:00:00+08:00",
+  "fetched_at": "2026-11-09T12:29:12.976352+08:00"
+}

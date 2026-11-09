@@ -1,0 +1,231 @@
+{
+  "province": "黑龙江省",
+  "province_code": "230000",
+  "currency": "CNY",
+  "cities": [
+    {
+      "city_name": "哈尔滨市",
+      "city_code": "230100",
+      "source_url": "http://www.qiyoujiage.com/heilongjiang/haerbin.shtml",
+      "current_prices": {
+        "gasoline_92": 8.85,
+        "gasoline_95": 9.48,
+        "gasoline_98": 10.75,
+        "diesel_0": 8.36
+      },
+      "next_prices": {
+        "gasoline_92": 8.93,
+        "gasoline_95": 9.56,
+        "gasoline_98": 10.83,
+        "diesel_0": 8.44
+      }
+    },
+    {
+      "city_name": "齐齐哈尔市",
+      "city_code": "230200",
+      "source_url": "http://www.qiyoujiage.com/heilongjiang/qiqihaer.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "鸡西市",
+      "city_code": "230300",
+      "source_url": "http://www.qiyoujiage.com/heilongjiang/jixi.shtml",
+      "current_prices": {
+        "gasoline_92": 8.85,
+        "gasoline_95": 9.48,
+        "gasoline_98": 10.75,
+        "diesel_0": 8.36
+      },
+      "next_prices": {
+        "gasoline_92": 8.93,
+        "gasoline_95": 9.56,
+        "gasoline_98": 10.83,
+        "diesel_0": 8.44
+      }
+    },
+    {
+      "city_name": "鹤岗市",
+      "city_code": "230400",
+      "source_url": "http://www.qiyoujiage.com/heilongjiang/hegang.shtml",
+      "current_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.81,
+        "diesel_0": 8.39
+      },
+      "next_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.89,
+        "diesel_0": 8.47
+      }
+    },
+    {
+      "city_name": "双鸭山市",
+      "city_code": "230500",
+      "source_url": "http://www.qiyoujiage.com/heilongjiang/shuangyashan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.81,
+        "diesel_0": 8.39
+      },
+      "next_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.89,
+        "diesel_0": 8.47
+      }
+    },
+    {
+      "city_name": "大庆市",
+      "city_code": "230600",
+      "source_url": "http://www.qiyoujiage.com/heilongjiang/daqing.shtml",
+      "current_prices": {
+        "gasoline_92": 8.85,
+        "gasoline_95": 9.48,
+        "gasoline_98": 10.75,
+        "diesel_0": 8.36
+      },
+      "next_prices": {
+        "gasoline_92": 8.93,
+        "gasoline_95": 9.56,
+        "gasoline_98": 10.83,
+        "diesel_0": 8.44
+      }
+    },
+    {
+      "city_name": "伊春市",
+      "city_code": "230700",
+      "source_url": "http://www.qiyoujiage.com/heilongjiang/yichun.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "佳木斯市",
+      "city_code": "230800",
+      "source_url": "http://www.qiyoujiage.com/heilongjiang/jiamusi.shtml",
+      "current_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.81,
+        "diesel_0": 8.39
+      },
+      "next_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.89,
+        "diesel_0": 8.47
+      }
+    },
+    {
+      "city_name": "七台河市",
+      "city_code": "230900",
+      "source_url": "http://www.qiyoujiage.com/heilongjiang/qitaihe.shtml",
+      "current_prices": {
+        "gasoline_92": 8.85,
+        "gasoline_95": 9.48,
+        "gasoline_98": 10.75,
+        "diesel_0": 8.36
+      },
+      "next_prices": {
+        "gasoline_92": 8.93,
+        "gasoline_95": 9.56,
+        "gasoline_98": 10.83,
+        "diesel_0": 8.44
+      }
+    },
+    {
+      "city_name": "牡丹江市",
+      "city_code": "231000",
+      "source_url": "http://www.qiyoujiage.com/heilongjiang/mudanjiang.shtml",
+      "current_prices": {
+        "gasoline_92": 8.85,
+        "gasoline_95": 9.48,
+        "gasoline_98": 10.75,
+        "diesel_0": 8.36
+      },
+      "next_prices": {
+        "gasoline_92": 8.93,
+        "gasoline_95": 9.56,
+        "gasoline_98": 10.83,
+        "diesel_0": 8.44
+      }
+    },
+    {
+      "city_name": "黑河市",
+      "city_code": "231100",
+      "source_url": "http://www.qiyoujiage.com/heilongjiang/heihe.shtml",
+      "current_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.81,
+        "diesel_0": 8.39
+      },
+      "next_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.89,
+        "diesel_0": 8.47
+      }
+    },
+    {
+      "city_name": "绥化市",
+      "city_code": "231200",
+      "source_url": "http://www.qiyoujiage.com/heilongjiang/suihua.shtml",
+      "current_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.81,
+        "diesel_0": 8.39
+      },
+      "next_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.89,
+        "diesel_0": 8.47
+      }
+    },
+    {
+      "city_name": "大兴安岭地区",
+      "city_code": "232700",
+      "source_url": "http://www.qiyoujiage.com/heilongjiang/daxinganling.shtml",
+      "current_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.81,
+        "diesel_0": 8.39
+      },
+      "next_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.89,
+        "diesel_0": 8.47
+      }
+    }
+  ],
+  "next_forecast": "up",
+  "next_adjustment_at": "2026-11-13T00:00:00+08:00",
+  "fetched_at": null
+}

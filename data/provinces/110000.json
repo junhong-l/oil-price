@@ -1,0 +1,27 @@
+{
+  "province": "北京市",
+  "province_code": "110000",
+  "currency": "CNY",
+  "cities": [
+    {
+      "city_name": "北京市",
+      "city_code": "110000",
+      "source_url": "http://www.qiyoujiage.com/beijing.shtml",
+      "current_prices": {
+        "gasoline_92": 8.89,
+        "gasoline_95": 9.46,
+        "gasoline_98": 10.96,
+        "diesel_0": 8.65
+      },
+      "next_prices": {
+        "gasoline_92": 8.97,
+        "gasoline_95": 9.54,
+        "gasoline_98": 11.04,
+        "diesel_0": 8.73
+      }
+    }
+  ],
+  "next_forecast": "up",
+  "next_adjustment_at": "2026-11-13T00:00:00+08:00",
+  "fetched_at": "2026-11-09T12:29:12.976352+08:00"
+}

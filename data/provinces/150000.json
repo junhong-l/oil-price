@@ -1,0 +1,214 @@
+{
+  "province": "内蒙古自治区",
+  "province_code": "150000",
+  "currency": "CNY",
+  "cities": [
+    {
+      "city_name": "呼和浩特市",
+      "city_code": "150100",
+      "source_url": "http://www.qiyoujiage.com/neimenggu/huhehaote.shtml",
+      "current_prices": {
+        "gasoline_92": 8.89,
+        "gasoline_95": 9.45,
+        "gasoline_98": 10.32,
+        "diesel_0": 8.42
+      },
+      "next_prices": {
+        "gasoline_92": 8.97,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.4,
+        "diesel_0": 8.5
+      }
+    },
+    {
+      "city_name": "包头市",
+      "city_code": "150200",
+      "source_url": "http://www.qiyoujiage.com/neimenggu/baotou.shtml",
+      "current_prices": {
+        "gasoline_92": 8.89,
+        "gasoline_95": 9.45,
+        "gasoline_98": 10.32,
+        "diesel_0": 8.42
+      },
+      "next_prices": {
+        "gasoline_92": 8.97,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.4,
+        "diesel_0": 8.5
+      }
+    },
+    {
+      "city_name": "乌海市",
+      "city_code": "150300",
+      "source_url": "http://www.qiyoujiage.com/neimenggu/wuhai.shtml",
+      "current_prices": {
+        "gasoline_92": 8.89,
+        "gasoline_95": 9.45,
+        "gasoline_98": 10.32,
+        "diesel_0": 8.42
+      },
+      "next_prices": {
+        "gasoline_92": 8.97,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.4,
+        "diesel_0": 8.5
+      }
+    },
+    {
+      "city_name": "赤峰市",
+      "city_code": "150400",
+      "source_url": "http://www.qiyoujiage.com/neimenggu/chifeng.shtml",
+      "current_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.47,
+        "diesel_0": 8.44
+      },
+      "next_prices": {
+        "gasoline_92": 9.04,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.55,
+        "diesel_0": 8.52
+      }
+    },
+    {
+      "city_name": "通辽市",
+      "city_code": "150500",
+      "source_url": "http://www.qiyoujiage.com/neimenggu/tongliao.shtml",
+      "current_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.47,
+        "diesel_0": 8.44
+      },
+      "next_prices": {
+        "gasoline_92": 9.04,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.55,
+        "diesel_0": 8.52
+      }
+    },
+    {
+      "city_name": "鄂尔多斯市",
+      "city_code": "150600",
+      "source_url": "http://www.qiyoujiage.com/neimenggu/eerduosi.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "呼伦贝尔市",
+      "city_code": "150700",
+      "source_url": "http://www.qiyoujiage.com/neimenggu/hulunbeier.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "巴彦淖尔市",
+      "city_code": "150800",
+      "source_url": "http://www.qiyoujiage.com/neimenggu/bayannaoer.shtml",
+      "current_prices": {
+        "gasoline_92": 8.89,
+        "gasoline_95": 9.45,
+        "gasoline_98": 10.32,
+        "diesel_0": 8.42
+      },
+      "next_prices": {
+        "gasoline_92": 8.97,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.4,
+        "diesel_0": 8.5
+      }
+    },
+    {
+      "city_name": "乌兰察布市",
+      "city_code": "150900",
+      "source_url": "http://www.qiyoujiage.com/neimenggu/wulanchabu.shtml",
+      "current_prices": {
+        "gasoline_92": 8.89,
+        "gasoline_95": 9.45,
+        "gasoline_98": 10.32,
+        "diesel_0": 8.42
+      },
+      "next_prices": {
+        "gasoline_92": 8.97,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.4,
+        "diesel_0": 8.5
+      }
+    },
+    {
+      "city_name": "兴安盟",
+      "city_code": "152200",
+      "source_url": "http://www.qiyoujiage.com/neimenggu/xinganmeng.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "锡林郭勒盟",
+      "city_code": "152500",
+      "source_url": "http://www.qiyoujiage.com/neimenggu/xilinguolemeng.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "阿拉善盟",
+      "city_code": "152900",
+      "source_url": "http://www.qiyoujiage.com/neimenggu/alashanmeng.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    }
+  ],
+  "next_forecast": "up",
+  "next_adjustment_at": "2026-11-13T00:00:00+08:00",
+  "fetched_at": null
+}

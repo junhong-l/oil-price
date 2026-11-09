@@ -1,0 +1,248 @@
+{
+  "province": "辽宁省",
+  "province_code": "210000",
+  "currency": "CNY",
+  "cities": [
+    {
+      "city_name": "沈阳市",
+      "city_code": "210100",
+      "source_url": "http://www.qiyoujiage.com/liaoning/shenyang.shtml",
+      "current_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.58,
+        "gasoline_98": 10.5,
+        "diesel_0": 8.48
+      },
+      "next_prices": {
+        "gasoline_92": 9.04,
+        "gasoline_95": 9.66,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.56
+      }
+    },
+    {
+      "city_name": "大连市",
+      "city_code": "210200",
+      "source_url": "http://www.qiyoujiage.com/liaoning/dalian.shtml",
+      "current_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.58,
+        "gasoline_98": 10.5,
+        "diesel_0": 8.48
+      },
+      "next_prices": {
+        "gasoline_92": 9.04,
+        "gasoline_95": 9.66,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.56
+      }
+    },
+    {
+      "city_name": "鞍山市",
+      "city_code": "210300",
+      "source_url": "http://www.qiyoujiage.com/liaoning/anshan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.58,
+        "gasoline_98": 10.5,
+        "diesel_0": 8.48
+      },
+      "next_prices": {
+        "gasoline_92": 9.04,
+        "gasoline_95": 9.66,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.56
+      }
+    },
+    {
+      "city_name": "抚顺市",
+      "city_code": "210400",
+      "source_url": "http://www.qiyoujiage.com/liaoning/fushun.shtml",
+      "current_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.58,
+        "gasoline_98": 10.5,
+        "diesel_0": 8.48
+      },
+      "next_prices": {
+        "gasoline_92": 9.04,
+        "gasoline_95": 9.66,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.56
+      }
+    },
+    {
+      "city_name": "本溪市",
+      "city_code": "210500",
+      "source_url": "http://www.qiyoujiage.com/liaoning/benxi.shtml",
+      "current_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.58,
+        "gasoline_98": 10.5,
+        "diesel_0": 8.48
+      },
+      "next_prices": {
+        "gasoline_92": 9.04,
+        "gasoline_95": 9.66,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.56
+      }
+    },
+    {
+      "city_name": "丹东市",
+      "city_code": "210600",
+      "source_url": "http://www.qiyoujiage.com/liaoning/dandong.shtml",
+      "current_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.58,
+        "gasoline_98": 10.5,
+        "diesel_0": 8.48
+      },
+      "next_prices": {
+        "gasoline_92": 9.04,
+        "gasoline_95": 9.66,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.56
+      }
+    },
+    {
+      "city_name": "锦州市",
+      "city_code": "210700",
+      "source_url": "http://www.qiyoujiage.com/liaoning/jinzhou.shtml",
+      "current_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.58,
+        "gasoline_98": 10.5,
+        "diesel_0": 8.48
+      },
+      "next_prices": {
+        "gasoline_92": 9.04,
+        "gasoline_95": 9.66,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.56
+      }
+    },
+    {
+      "city_name": "营口市",
+      "city_code": "210800",
+      "source_url": "http://www.qiyoujiage.com/liaoning/yingkou.shtml",
+      "current_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.58,
+        "gasoline_98": 10.5,
+        "diesel_0": 8.48
+      },
+      "next_prices": {
+        "gasoline_92": 9.04,
+        "gasoline_95": 9.66,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.56
+      }
+    },
+    {
+      "city_name": "阜新市",
+      "city_code": "210900",
+      "source_url": "http://www.qiyoujiage.com/liaoning/fuxin.shtml",
+      "current_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.58,
+        "gasoline_98": 10.5,
+        "diesel_0": 8.48
+      },
+      "next_prices": {
+        "gasoline_92": 9.04,
+        "gasoline_95": 9.66,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.56
+      }
+    },
+    {
+      "city_name": "辽阳市",
+      "city_code": "211000",
+      "source_url": "http://www.qiyoujiage.com/liaoning/liaoyang.shtml",
+      "current_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.58,
+        "gasoline_98": 10.5,
+        "diesel_0": 8.48
+      },
+      "next_prices": {
+        "gasoline_92": 9.04,
+        "gasoline_95": 9.66,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.56
+      }
+    },
+    {
+      "city_name": "盘锦市",
+      "city_code": "211100",
+      "source_url": "http://www.qiyoujiage.com/liaoning/panjin.shtml",
+      "current_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.58,
+        "gasoline_98": 10.5,
+        "diesel_0": 8.48
+      },
+      "next_prices": {
+        "gasoline_92": 9.04,
+        "gasoline_95": 9.66,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.56
+      }
+    },
+    {
+      "city_name": "铁岭市",
+      "city_code": "211200",
+      "source_url": "http://www.qiyoujiage.com/liaoning/tieling.shtml",
+      "current_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.58,
+        "gasoline_98": 10.5,
+        "diesel_0": 8.48
+      },
+      "next_prices": {
+        "gasoline_92": 9.04,
+        "gasoline_95": 9.66,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.56
+      }
+    },
+    {
+      "city_name": "朝阳市",
+      "city_code": "211300",
+      "source_url": "http://www.qiyoujiage.com/liaoning/chaoyang.shtml",
+      "current_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.58,
+        "gasoline_98": 10.5,
+        "diesel_0": 8.48
+      },
+      "next_prices": {
+        "gasoline_92": 9.04,
+        "gasoline_95": 9.66,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.56
+      }
+    },
+    {
+      "city_name": "葫芦岛市",
+      "city_code": "211400",
+      "source_url": "http://www.qiyoujiage.com/liaoning/huludao.shtml",
+      "current_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.58,
+        "gasoline_98": 10.5,
+        "diesel_0": 8.48
+      },
+      "next_prices": {
+        "gasoline_92": 9.04,
+        "gasoline_95": 9.66,
+        "gasoline_98": 10.58,
+        "diesel_0": 8.56
+      }
+    }
+  ],
+  "next_forecast": "up",
+  "next_adjustment_at": "2026-11-13T00:00:00+08:00",
+  "fetched_at": "2026-11-09T12:29:12.976352+08:00"
+}

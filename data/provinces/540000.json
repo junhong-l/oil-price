@@ -1,0 +1,129 @@
+{
+  "province": "西藏自治区",
+  "province_code": "540000",
+  "currency": "CNY",
+  "cities": [
+    {
+      "city_name": "拉萨市",
+      "city_code": "540100",
+      "source_url": "http://www.qiyoujiage.com/xizang/lasa.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "日喀则市",
+      "city_code": "540200",
+      "source_url": "http://www.qiyoujiage.com/xizang/rikaze.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "昌都市",
+      "city_code": "540300",
+      "source_url": "http://www.qiyoujiage.com/xizang/changdu.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "林芝市",
+      "city_code": "540400",
+      "source_url": "http://www.qiyoujiage.com/xizang/linzhi.shtml",
+      "current_prices": {
+        "gasoline_92": 9.75,
+        "gasoline_95": 10.32,
+        "gasoline_98": 11.5,
+        "diesel_0": 9.11
+      },
+      "next_prices": {
+        "gasoline_92": 9.83,
+        "gasoline_95": 10.4,
+        "gasoline_98": 11.58,
+        "diesel_0": 9.19
+      }
+    },
+    {
+      "city_name": "山南市",
+      "city_code": "540500",
+      "source_url": "http://www.qiyoujiage.com/xizang/shannan.shtml",
+      "current_prices": {
+        "gasoline_92": 9.75,
+        "gasoline_95": 10.32,
+        "gasoline_98": 11.5,
+        "diesel_0": 9.11
+      },
+      "next_prices": {
+        "gasoline_92": 9.83,
+        "gasoline_95": 10.4,
+        "gasoline_98": 11.58,
+        "diesel_0": 9.19
+      }
+    },
+    {
+      "city_name": "那曲市",
+      "city_code": "540600",
+      "source_url": "http://www.qiyoujiage.com/xizang/naqu.shtml",
+      "current_prices": {
+        "gasoline_92": 9.75,
+        "gasoline_95": 10.32,
+        "gasoline_98": 11.5,
+        "diesel_0": 9.11
+      },
+      "next_prices": {
+        "gasoline_92": 9.83,
+        "gasoline_95": 10.4,
+        "gasoline_98": 11.58,
+        "diesel_0": 9.19
+      }
+    },
+    {
+      "city_name": "阿里地区",
+      "city_code": "542500",
+      "source_url": "http://www.qiyoujiage.com/xizang/ali.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    }
+  ],
+  "next_forecast": "up",
+  "next_adjustment_at": "2026-11-13T00:00:00+08:00",
+  "fetched_at": null
+}

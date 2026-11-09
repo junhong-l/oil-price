@@ -1,0 +1,299 @@
+{
+  "province": "湖北省",
+  "province_code": "420000",
+  "currency": "CNY",
+  "cities": [
+    {
+      "city_name": "武汉市",
+      "city_code": "420100",
+      "source_url": "http://www.qiyoujiage.com/hubei/wuhan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.93,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 11.01,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "黄石市",
+      "city_code": "420200",
+      "source_url": "http://www.qiyoujiage.com/hubei/huangshi.shtml",
+      "current_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.93,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 11.01,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "十堰市",
+      "city_code": "420300",
+      "source_url": "http://www.qiyoujiage.com/hubei/shiyan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.93,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 11.01,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "宜昌市",
+      "city_code": "420500",
+      "source_url": "http://www.qiyoujiage.com/hubei/yichang.shtml",
+      "current_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.93,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 11.01,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "襄阳市",
+      "city_code": "420600",
+      "source_url": "http://www.qiyoujiage.com/hubei/xiangyang.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "鄂州市",
+      "city_code": "420700",
+      "source_url": "http://www.qiyoujiage.com/hubei/ezhou.shtml",
+      "current_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.93,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 11.01,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "荆门市",
+      "city_code": "420800",
+      "source_url": "http://www.qiyoujiage.com/hubei/jingmen.shtml",
+      "current_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.93,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 11.01,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "孝感市",
+      "city_code": "420900",
+      "source_url": "http://www.qiyoujiage.com/hubei/xiaogan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.93,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 11.01,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "荆州市",
+      "city_code": "421000",
+      "source_url": "http://www.qiyoujiage.com/hubei/jingzhou.shtml",
+      "current_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.93,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 11.01,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "黄冈市",
+      "city_code": "421100",
+      "source_url": "http://www.qiyoujiage.com/hubei/huanggang.shtml",
+      "current_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.93,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 11.01,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "咸宁市",
+      "city_code": "421200",
+      "source_url": "http://www.qiyoujiage.com/hubei/xianning.shtml",
+      "current_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.93,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 11.01,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "随州市",
+      "city_code": "421300",
+      "source_url": "http://www.qiyoujiage.com/hubei/suizhou.shtml",
+      "current_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.93,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 11.01,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "恩施土家族苗族自治州",
+      "city_code": "422800",
+      "source_url": "http://www.qiyoujiage.com/hubei/enshi.shtml",
+      "current_prices": {
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.93,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 11.01,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "仙桃市",
+      "city_code": "429004",
+      "source_url": "http://www.qiyoujiage.com/hubei/xiantao.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "潜江市",
+      "city_code": "429005",
+      "source_url": "http://www.qiyoujiage.com/hubei/qianjiang.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "天门市",
+      "city_code": "429006",
+      "source_url": "http://www.qiyoujiage.com/hubei/tianmen.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    },
+    {
+      "city_name": "神农架林区",
+      "city_code": "429021",
+      "source_url": "http://www.qiyoujiage.com/hubei/shennongjia.shtml",
+      "current_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      },
+      "next_prices": {
+        "gasoline_92": null,
+        "gasoline_95": null,
+        "gasoline_98": null,
+        "diesel_0": null
+      }
+    }
+  ],
+  "next_forecast": "up",
+  "next_adjustment_at": "2026-11-13T00:00:00+08:00",
+  "fetched_at": null
+}

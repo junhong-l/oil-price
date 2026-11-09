@@ -1,0 +1,197 @@
+{
+  "province": "河北省",
+  "province_code": "130000",
+  "currency": "CNY",
+  "cities": [
+    {
+      "city_name": "石家庄市",
+      "city_code": "130100",
+      "source_url": "http://www.qiyoujiage.com/hebei/shijiazhuang.shtml",
+      "current_prices": {
+        "gasoline_92": 8.88,
+        "gasoline_95": 9.39,
+        "gasoline_98": 10.21,
+        "diesel_0": 8.6
+      },
+      "next_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.47,
+        "gasoline_98": 10.29,
+        "diesel_0": 8.68
+      }
+    },
+    {
+      "city_name": "唐山市",
+      "city_code": "130200",
+      "source_url": "http://www.qiyoujiage.com/hebei/tangshan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.88,
+        "gasoline_95": 9.39,
+        "gasoline_98": 10.21,
+        "diesel_0": 8.6
+      },
+      "next_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.47,
+        "gasoline_98": 10.29,
+        "diesel_0": 8.68
+      }
+    },
+    {
+      "city_name": "秦皇岛市",
+      "city_code": "130300",
+      "source_url": "http://www.qiyoujiage.com/hebei/qinhuangdao.shtml",
+      "current_prices": {
+        "gasoline_92": 8.88,
+        "gasoline_95": 9.39,
+        "gasoline_98": 10.21,
+        "diesel_0": 8.6
+      },
+      "next_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.47,
+        "gasoline_98": 10.29,
+        "diesel_0": 8.68
+      }
+    },
+    {
+      "city_name": "邯郸市",
+      "city_code": "130400",
+      "source_url": "http://www.qiyoujiage.com/hebei/handan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.88,
+        "gasoline_95": 9.39,
+        "gasoline_98": 10.21,
+        "diesel_0": 8.6
+      },
+      "next_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.47,
+        "gasoline_98": 10.29,
+        "diesel_0": 8.68
+      }
+    },
+    {
+      "city_name": "邢台市",
+      "city_code": "130500",
+      "source_url": "http://www.qiyoujiage.com/hebei/xingtai.shtml",
+      "current_prices": {
+        "gasoline_92": 8.88,
+        "gasoline_95": 9.39,
+        "gasoline_98": 10.21,
+        "diesel_0": 8.6
+      },
+      "next_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.47,
+        "gasoline_98": 10.29,
+        "diesel_0": 8.68
+      }
+    },
+    {
+      "city_name": "保定市",
+      "city_code": "130600",
+      "source_url": "http://www.qiyoujiage.com/hebei/baoding.shtml",
+      "current_prices": {
+        "gasoline_92": 8.88,
+        "gasoline_95": 9.39,
+        "gasoline_98": 10.21,
+        "diesel_0": 8.6
+      },
+      "next_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.47,
+        "gasoline_98": 10.29,
+        "diesel_0": 8.68
+      }
+    },
+    {
+      "city_name": "张家口市",
+      "city_code": "130700",
+      "source_url": "http://www.qiyoujiage.com/hebei/zhangjiakou.shtml",
+      "current_prices": {
+        "gasoline_92": 8.88,
+        "gasoline_95": 9.39,
+        "gasoline_98": 10.21,
+        "diesel_0": 8.6
+      },
+      "next_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.47,
+        "gasoline_98": 10.29,
+        "diesel_0": 8.68
+      }
+    },
+    {
+      "city_name": "承德市",
+      "city_code": "130800",
+      "source_url": "http://www.qiyoujiage.com/hebei/chengde.shtml",
+      "current_prices": {
+        "gasoline_92": 8.88,
+        "gasoline_95": 9.39,
+        "gasoline_98": 10.21,
+        "diesel_0": 8.6
+      },
+      "next_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.47,
+        "gasoline_98": 10.29,
+        "diesel_0": 8.68
+      }
+    },
+    {
+      "city_name": "沧州市",
+      "city_code": "130900",
+      "source_url": "http://www.qiyoujiage.com/hebei/cangzhou.shtml",
+      "current_prices": {
+        "gasoline_92": 8.88,
+        "gasoline_95": 9.39,
+        "gasoline_98": 10.21,
+        "diesel_0": 8.6
+      },
+      "next_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.47,
+        "gasoline_98": 10.29,
+        "diesel_0": 8.68
+      }
+    },
+    {
+      "city_name": "廊坊市",
+      "city_code": "131000",
+      "source_url": "http://www.qiyoujiage.com/hebei/langfang.shtml",
+      "current_prices": {
+        "gasoline_92": 8.88,
+        "gasoline_95": 9.39,
+        "gasoline_98": 10.21,
+        "diesel_0": 8.6
+      },
+      "next_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.47,
+        "gasoline_98": 10.29,
+        "diesel_0": 8.68
+      }
+    },
+    {
+      "city_name": "衡水市",
+      "city_code": "131100",
+      "source_url": "http://www.qiyoujiage.com/hebei/hengshui.shtml",
+      "current_prices": {
+        "gasoline_92": 8.88,
+        "gasoline_95": 9.39,
+        "gasoline_98": 10.21,
+        "diesel_0": 8.6
+      },
+      "next_prices": {
+        "gasoline_92": 8.96,
+        "gasoline_95": 9.47,
+        "gasoline_98": 10.29,
+        "diesel_0": 8.68
+      }
+    }
+  ],
+  "next_forecast": "up",
+  "next_adjustment_at": "2026-11-13T00:00:00+08:00",
+  "fetched_at": "2026-11-09T12:29:12.976352+08:00"
+}

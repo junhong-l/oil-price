@@ -1,0 +1,163 @@
+{
+  "province": "福建省",
+  "province_code": "350000",
+  "currency": "CNY",
+  "cities": [
+    {
+      "city_name": "福州市",
+      "city_code": "350100",
+      "source_url": "http://www.qiyoujiage.com/fujian/fuzhou.shtml",
+      "current_prices": {
+        "gasoline_92": 8.84,
+        "gasoline_95": 9.44,
+        "gasoline_98": 10.94,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.92,
+        "gasoline_95": 9.52,
+        "gasoline_98": 11.02,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "厦门市",
+      "city_code": "350200",
+      "source_url": "http://www.qiyoujiage.com/fujian/xiamen.shtml",
+      "current_prices": {
+        "gasoline_92": 8.84,
+        "gasoline_95": 9.44,
+        "gasoline_98": 10.94,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.92,
+        "gasoline_95": 9.52,
+        "gasoline_98": 11.02,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "莆田市",
+      "city_code": "350300",
+      "source_url": "http://www.qiyoujiage.com/fujian/putian.shtml",
+      "current_prices": {
+        "gasoline_92": 8.84,
+        "gasoline_95": 9.44,
+        "gasoline_98": 10.94,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.92,
+        "gasoline_95": 9.52,
+        "gasoline_98": 11.02,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "三明市",
+      "city_code": "350400",
+      "source_url": "http://www.qiyoujiage.com/fujian/sanming.shtml",
+      "current_prices": {
+        "gasoline_92": 8.84,
+        "gasoline_95": 9.44,
+        "gasoline_98": 10.94,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.92,
+        "gasoline_95": 9.52,
+        "gasoline_98": 11.02,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "泉州市",
+      "city_code": "350500",
+      "source_url": "http://www.qiyoujiage.com/fujian/quanzhou.shtml",
+      "current_prices": {
+        "gasoline_92": 8.84,
+        "gasoline_95": 9.44,
+        "gasoline_98": 10.94,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.92,
+        "gasoline_95": 9.52,
+        "gasoline_98": 11.02,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "漳州市",
+      "city_code": "350600",
+      "source_url": "http://www.qiyoujiage.com/fujian/zhangzhou.shtml",
+      "current_prices": {
+        "gasoline_92": 8.84,
+        "gasoline_95": 9.44,
+        "gasoline_98": 10.94,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.92,
+        "gasoline_95": 9.52,
+        "gasoline_98": 11.02,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "南平市",
+      "city_code": "350700",
+      "source_url": "http://www.qiyoujiage.com/fujian/nanping.shtml",
+      "current_prices": {
+        "gasoline_92": 8.84,
+        "gasoline_95": 9.44,
+        "gasoline_98": 10.94,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.92,
+        "gasoline_95": 9.52,
+        "gasoline_98": 11.02,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "龙岩市",
+      "city_code": "350800",
+      "source_url": "http://www.qiyoujiage.com/fujian/longyan.shtml",
+      "current_prices": {
+        "gasoline_92": 8.84,
+        "gasoline_95": 9.44,
+        "gasoline_98": 10.94,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.92,
+        "gasoline_95": 9.52,
+        "gasoline_98": 11.02,
+        "diesel_0": 8.66
+      }
+    },
+    {
+      "city_name": "宁德市",
+      "city_code": "350900",
+      "source_url": "http://www.qiyoujiage.com/fujian/ningde.shtml",
+      "current_prices": {
+        "gasoline_92": 8.84,
+        "gasoline_95": 9.44,
+        "gasoline_98": 10.94,
+        "diesel_0": 8.58
+      },
+      "next_prices": {
+        "gasoline_92": 8.92,
+        "gasoline_95": 9.52,
+        "gasoline_98": 11.02,
+        "diesel_0": 8.66
+      }
+    }
+  ],
+  "next_forecast": "up",
+  "next_adjustment_at": "2026-11-13T00:00:00+08:00",
+  "fetched_at": "2026-11-09T12:29:12.976352+08:00"
+}

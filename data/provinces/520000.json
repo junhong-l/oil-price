@@ -1,0 +1,163 @@
+{
+  "province": "贵州省",
+  "province_code": "520000",
+  "currency": "CNY",
+  "cities": [
+    {
+      "city_name": "贵阳市",
+      "city_code": "520100",
+      "source_url": "http://www.qiyoujiage.com/guizhou/guiyang.shtml",
+      "current_prices": {
+        "gasoline_92": 9.02,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.53,
+        "diesel_0": 8.69
+      },
+      "next_prices": {
+        "gasoline_92": 9.1,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.61,
+        "diesel_0": 8.77
+      }
+    },
+    {
+      "city_name": "六盘水市",
+      "city_code": "520200",
+      "source_url": "http://www.qiyoujiage.com/guizhou/liupanshui.shtml",
+      "current_prices": {
+        "gasoline_92": 9.08,
+        "gasoline_95": 9.6,
+        "gasoline_98": 10.6,
+        "diesel_0": 8.75
+      },
+      "next_prices": {
+        "gasoline_92": 9.16,
+        "gasoline_95": 9.68,
+        "gasoline_98": 10.68,
+        "diesel_0": 8.83
+      }
+    },
+    {
+      "city_name": "遵义市",
+      "city_code": "520300",
+      "source_url": "http://www.qiyoujiage.com/guizhou/zunyi.shtml",
+      "current_prices": {
+        "gasoline_92": 9.08,
+        "gasoline_95": 9.6,
+        "gasoline_98": 10.6,
+        "diesel_0": 8.75
+      },
+      "next_prices": {
+        "gasoline_92": 9.16,
+        "gasoline_95": 9.68,
+        "gasoline_98": 10.68,
+        "diesel_0": 8.83
+      }
+    },
+    {
+      "city_name": "安顺市",
+      "city_code": "520400",
+      "source_url": "http://www.qiyoujiage.com/guizhou/anshun.shtml",
+      "current_prices": {
+        "gasoline_92": 9.05,
+        "gasoline_95": 9.56,
+        "gasoline_98": 10.56,
+        "diesel_0": 8.72
+      },
+      "next_prices": {
+        "gasoline_92": 9.13,
+        "gasoline_95": 9.64,
+        "gasoline_98": 10.64,
+        "diesel_0": 8.8
+      }
+    },
+    {
+      "city_name": "毕节市",
+      "city_code": "520500",
+      "source_url": "http://www.qiyoujiage.com/guizhou/bijie.shtml",
+      "current_prices": {
+        "gasoline_92": 9.08,
+        "gasoline_95": 9.6,
+        "gasoline_98": 10.6,
+        "diesel_0": 8.75
+      },
+      "next_prices": {
+        "gasoline_92": 9.16,
+        "gasoline_95": 9.68,
+        "gasoline_98": 10.68,
+        "diesel_0": 8.83
+      }
+    },
+    {
+      "city_name": "铜仁市",
+      "city_code": "520600",
+      "source_url": "http://www.qiyoujiage.com/guizhou/tongren.shtml",
+      "current_prices": {
+        "gasoline_92": 9.08,
+        "gasoline_95": 9.6,
+        "gasoline_98": 10.6,
+        "diesel_0": 8.75
+      },
+      "next_prices": {
+        "gasoline_92": 9.16,
+        "gasoline_95": 9.68,
+        "gasoline_98": 10.68,
+        "diesel_0": 8.83
+      }
+    },
+    {
+      "city_name": "黔西南布依族苗族自治州",
+      "city_code": "522300",
+      "source_url": "http://www.qiyoujiage.com/guizhou/qianxinan.shtml",
+      "current_prices": {
+        "gasoline_92": 9.08,
+        "gasoline_95": 9.6,
+        "gasoline_98": 10.6,
+        "diesel_0": 8.75
+      },
+      "next_prices": {
+        "gasoline_92": 9.16,
+        "gasoline_95": 9.68,
+        "gasoline_98": 10.68,
+        "diesel_0": 8.83
+      }
+    },
+    {
+      "city_name": "黔东南苗族侗族自治州",
+      "city_code": "522600",
+      "source_url": "http://www.qiyoujiage.com/guizhou/qiandongnan.shtml",
+      "current_prices": {
+        "gasoline_92": 9.08,
+        "gasoline_95": 9.6,
+        "gasoline_98": 10.6,
+        "diesel_0": 8.75
+      },
+      "next_prices": {
+        "gasoline_92": 9.16,
+        "gasoline_95": 9.68,
+        "gasoline_98": 10.68,
+        "diesel_0": 8.83
+      }
+    },
+    {
+      "city_name": "黔南布依族苗族自治州",
+      "city_code": "522700",
+      "source_url": "http://www.qiyoujiage.com/guizhou/qiannan.shtml",
+      "current_prices": {
+        "gasoline_92": 9.05,
+        "gasoline_95": 9.56,
+        "gasoline_98": 10.56,
+        "diesel_0": 8.72
+      },
+      "next_prices": {
+        "gasoline_92": 9.13,
+        "gasoline_95": 9.64,
+        "gasoline_98": 10.64,
+        "diesel_0": 8.8
+      }
+    }
+  ],
+  "next_forecast": "up",
+  "next_adjustment_at": "2026-11-13T00:00:00+08:00",
+  "fetched_at": "2026-11-09T12:29:12.976352+08:00"
+}
