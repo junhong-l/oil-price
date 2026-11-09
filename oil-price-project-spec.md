@@ -159,6 +159,7 @@ python -m src.oil_prices
   ],
   "next_forecast": "up",
   "next_adjustment_at": null,
+  "next_adjustment_notice": "目前预计上调油价90元/吨(0.07元/升-0.08元/升)",
   "fetched_at": "2026-11-09T12:00:00+08:00"
 }
 ```
@@ -173,6 +174,7 @@ python -m src.oil_prices
 - `current_prices`、`next_prices`：分别表示当前价格和下次价格（来源逐油品给出，或按第 8 节由每升涨幅最高值估算），均包含 `gasoline_92`、`gasoline_95`、`gasoline_98`、`diesel_0` 四个元/升价格；缺失或无法可靠确定时使用 `null`。
 - `next_forecast`：只表达整体方向，允许值为 `"down"`、`"up"`、`"unchanged"` 或 `null`，不表示逐油品官方预测。
 - `next_adjustment_at`：可靠解析的北京时间 ISO 8601 时间；不能确定时使用 `null`。
+- `next_adjustment_notice`：省级页面的预测文字，例如 `"目前预计上调油价90元/吨(0.07元/升-0.08元/升)"`，保留吨价额度和括号内每升范围，去掉布局空白及后续提醒。支持上调、下调和不变；缺失时为 `null` 并记录警告，省级页面请求失败时保留旧值。统一省价和城市价省份都在省级结果中输出此字段。
 - `fetched_at`：本省数据本次成功采集的北京时间 ISO 8601 时间；每次本省采集成功时更新，因此即使价格未变，省文件也可能产生时间戳差异。
 
 `data/status.json` 保存本轮开始/结束时间、总体状态、各地区最后尝试时间、最后成功时间、错误和是否使用旧数据。`fetched_at` 记录在各省 JSON 中；状态文件可记录任务级状态。成功时间更新允许产生每日状态提交，但不可声称“完全没变化就绝不提交”。

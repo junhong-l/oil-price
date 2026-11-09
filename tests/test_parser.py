@@ -5,6 +5,7 @@ from pathlib import Path
 from oil_prices.parser import (
     ParseError,
     estimate_next_prices,
+    parse_adjustment_notice,
     parse_city_prices,
     parse_max_change_per_liter,
     parse_notice,
@@ -119,6 +120,32 @@ class ParseNoticeTests(unittest.TestCase):
 
     def test_missing_notice_returns_none(self):
         self.assertEqual(parse_notice("<html></html>", NOW), (None, None))
+
+
+class ParseAdjustmentNoticeTests(unittest.TestCase):
+    def test_exact_sentence_excludes_reminder(self):
+        self.assertEqual(
+            parse_adjustment_notice(read_fixture("sichuan.html")),
+            "目前预计上调油价90元/吨(0.07元/升-0.08元/升)",
+        )
+
+    def test_down_notice_with_markup_whitespace_and_fullwidth_brackets(self):
+        html = notice_html(
+            "目前预计<span>下调油价</span> 100元/吨（0.08元/升-<b>0.09元/升</b>），请关注"
+        )
+        self.assertEqual(
+            parse_adjustment_notice(html),
+            "目前预计下调油价100元/吨（0.08元/升-0.09元/升）",
+        )
+
+    def test_per_ton_only_and_unchanged(self):
+        for text in ("目前预计上调油价90元/吨", "目前预计不变"):
+            with self.subTest(text=text):
+                self.assertEqual(parse_adjustment_notice(notice_html(text)), text)
+
+    def test_missing_notice_is_null(self):
+        with self.assertLogs("oil_prices.parser", level="WARNING"):
+            self.assertIsNone(parse_adjustment_notice("<html></html>"))
 
 
 class ParseMaxChangeTests(unittest.TestCase):

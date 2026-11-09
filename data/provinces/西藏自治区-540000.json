@@ -43,16 +43,16 @@
       "city_code": "540300",
       "source_url": "http://www.qiyoujiage.com/xizang/changdu.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
+        "gasoline_92": 9.94,
+        "gasoline_95": 10.49,
         "gasoline_98": null,
-        "diesel_0": null
+        "diesel_0": 9.32
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
+        "gasoline_92": 10.02,
+        "gasoline_95": 10.57,
         "gasoline_98": null,
-        "diesel_0": null
+        "diesel_0": 9.4
       }
     },
     {
@@ -111,20 +111,21 @@
       "city_code": "542500",
       "source_url": "http://www.qiyoujiage.com/xizang/ali.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
+        "gasoline_92": 10.14,
+        "gasoline_95": 10.71,
         "gasoline_98": null,
-        "diesel_0": null
+        "diesel_0": 9.52
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
+        "gasoline_92": 10.22,
+        "gasoline_95": 10.79,
         "gasoline_98": null,
-        "diesel_0": null
+        "diesel_0": 9.6
       }
     }
   ],
   "next_forecast": "up",
   "next_adjustment_at": "2026-11-13T00:00:00+08:00",
-  "fetched_at": null
+  "next_adjustment_notice": "目前预计上调油价90元/吨(0.07元/升-0.08元/升)",
+  "fetched_at": "2026-11-09T15:19:25.564188+08:00"
 }

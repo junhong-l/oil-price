@@ -18,5 +18,6 @@
   "cities": [],
   "next_forecast": "up",
   "next_adjustment_at": "2026-11-13T00:00:00+08:00",
-  "fetched_at": "2026-11-09T14:12:26.046102+08:00"
+  "next_adjustment_notice": "目前预计上调油价90元/吨(0.07元/升-0.08元/升)",
+  "fetched_at": "2026-11-09T15:19:25.564188+08:00"
 }

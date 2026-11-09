@@ -32,6 +32,11 @@ MAX_ADJUSTMENT_DISTANCE = timedelta(days=45)
 _LABEL_RE = re.compile(r"^(?P<region>.+?)(?P<grade>\d+)#(?:汽油|柴油)$")
 _NOTICE_TIME_RE = re.compile(r"下次油价(\d{1,2})月(\d{1,2})日(\d{1,2})时调整")
 _NOTICE_FORECAST_RE = re.compile(r"预计(上调|上涨|下调|下跌|不变|维持)")
+_NOTICE_TEXT_RE = re.compile(
+    r"目前预计(?:上调|上涨|下调|下跌|不变|维持)(?:油价)?"
+    r"(?:\d+(?:\.\d+)?元/吨)?"
+    r"(?:[(（][^()（）,，。;；]+[)）])?"
+)
 
 
 class ParseError(Exception):
@@ -110,6 +115,16 @@ def parse_notice(html, now):
         adjustment_at = _infer_adjustment_time(month, day, hour, now)
 
     return forecast, adjustment_at
+
+
+def parse_adjustment_notice(html):
+    """Return the forecast sentence, excluding reminders after it, or None."""
+    text = re.sub(r"\s+", "", BeautifulSoup(html, "html.parser").get_text())
+    match = _NOTICE_TEXT_RE.search(text)
+    if match is None:
+        logger.warning("Adjustment notice not found; storing null")
+        return None
+    return match.group()
 
 
 _CHANGE_RANGE_RE = re.compile(r"预计(?:上调|上涨|下调|下跌)[^(（]*[(（]([^)）]*)[)）]")

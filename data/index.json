@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09T14:19:19.741428+08:00",
-  "configured_provinces_complete": false,
+  "generated_at": "2026-11-09T15:26:24.904826+08:00",
+  "configured_provinces_complete": true,
   "provinces": [
     {
       "province_code": "110000",
@@ -202,11 +202,8 @@
       "path": "provinces/西藏自治区-540000.json",
       "province_page_ok": true,
       "expected_cities": 7,
-      "successful_cities": 5,
-      "missing_cities": [
-        "540300",
-        "542500"
-      ]
+      "successful_cities": 7,
+      "missing_cities": []
     },
     {
       "province_code": "610000",

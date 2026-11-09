@@ -91,6 +91,8 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(province["currency"], "CNY")
         self.assertEqual(province["next_forecast"], "up")
         self.assertEqual(province["next_adjustment_at"], "2026-11-13T00:00:00+08:00")
+        self.assertEqual(province["next_adjustment_notice"],
+                         "目前预计上调油价90元/吨(0.07元/升-0.08元/升)")
         self.assertEqual(province["fetched_at"], NOW.astimezone(BEIJING).isoformat())
         cities = {c["city_code"]: c for c in province["cities"]}
         self.assertEqual(cities["510100"]["current_prices"]["gasoline_92"], 8.98)
@@ -145,6 +147,22 @@ class CollectorTests(unittest.TestCase):
         self.assertIsNotNone(status["regions"]["513300"]["error"])
         index = self.load("index.json")
         self.assertEqual(index["provinces"][0]["missing_cities"], ["513300"])
+
+    def test_province_page_failure_preserves_previous_notice(self):
+        self.assertEqual(self.run_with(ok_routes()), EXIT_OK)
+        before = self.load("provinces/四川省-510000.json")["next_adjustment_notice"]
+        routes = ok_routes()
+        routes[PROVINCE_URL] = (500, "")
+        self.assertEqual(self.run_with(routes), EXIT_PARTIAL)
+        self.assertEqual(self.load("provinces/四川省-510000.json")["next_adjustment_notice"], before)
+
+    def test_missing_notice_clears_previous_notice(self):
+        self.assertEqual(self.run_with(ok_routes()), EXIT_OK)
+        routes = ok_routes()
+        routes[PROVINCE_URL] = (200, "<html></html>")
+        with self.assertLogs("oil_prices.parser", level="WARNING"):
+            self.assertEqual(self.run_with(routes), EXIT_OK)
+        self.assertIsNone(self.load("provinces/四川省-510000.json")["next_adjustment_notice"])
 
     def test_invalid_city_grade_writes_other_prices_and_nulls_next_price(self):
         self.assertEqual(self.run_with(ok_routes()), EXIT_OK)
@@ -220,6 +238,8 @@ class CollectorTests(unittest.TestCase):
 
         province = self.load("provinces/四川省-510000.json")
         self.assertTrue(province["uniform_pricing"])
+        self.assertEqual(province["next_adjustment_notice"],
+                         "目前预计上调油价90元/吨(0.07元/升-0.08元/升)")
         self.assertEqual(province["cities"], [])
         self.assertIsNotNone(province["current_prices"]["gasoline_92"])
         self.assertEqual(province["fetched_at"], NOW.astimezone(BEIJING).isoformat())
@@ -242,6 +262,7 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(code, EXIT_FAILED)
         province = self.load("provinces/四川省-510000.json")
         self.assertEqual(province["current_prices"], before["current_prices"])
+        self.assertEqual(province["next_adjustment_notice"], before["next_adjustment_notice"])
         self.assertEqual(province["fetched_at"], before["fetched_at"])
         status = self.load("status.json")["regions"]
         self.assertEqual(set(status), {"510000"})

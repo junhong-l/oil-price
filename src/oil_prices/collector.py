@@ -15,6 +15,7 @@ from .parser import (
     ParseError,
     empty_prices,
     estimate_next_prices,
+    parse_adjustment_notice,
     parse_city_prices,
     parse_max_change_per_liter,
     parse_notice,
@@ -69,11 +70,13 @@ def collect_province(province_cfg, data_dir, now, session, sleep, delay):
     province_error = None
     next_forecast = previous.get("next_forecast")
     next_adjustment_at = previous.get("next_adjustment_at")
+    next_adjustment_notice = previous.get("next_adjustment_notice")
     next_change = None
     sleep(delay + random.uniform(0, REQUEST_JITTER_SECONDS))
     try:
         province_html = fetch_html(session, province_cfg["province_source_url"], sleep=sleep)
         next_forecast, next_adjustment_at = parse_notice(province_html, now)
+        next_adjustment_notice = parse_adjustment_notice(province_html)
         next_change = parse_max_change_per_liter(province_html)
     except FatalFetchError:
         raise
@@ -136,6 +139,7 @@ def collect_province(province_cfg, data_dir, now, session, sleep, delay):
         "cities": cities_out,
         "next_forecast": next_forecast,
         "next_adjustment_at": next_adjustment_at,
+        "next_adjustment_notice": next_adjustment_notice,
         "fetched_at": iso(now) if all_ok else previous.get("fetched_at"),
     }
     if province_error:
@@ -161,6 +165,7 @@ def collect_uniform_province(province_cfg, data_dir, now, session, sleep, delay)
         html = fetch_html(session, province_cfg["province_source_url"], sleep=sleep)
         prices = parse_city_prices(html)
         next_forecast, next_adjustment_at = parse_notice(html, now)
+        next_adjustment_notice = parse_adjustment_notice(html)
         next_change = parse_max_change_per_liter(html)
         next_prices = estimate_next_prices(prices, next_forecast, next_change, next_adjustment_at, now)
         error = None
@@ -172,6 +177,7 @@ def collect_uniform_province(province_cfg, data_dir, now, session, sleep, delay)
         next_prices = previous.get("next_prices", empty_prices())
         next_forecast = previous.get("next_forecast")
         next_adjustment_at = previous.get("next_adjustment_at")
+        next_adjustment_notice = previous.get("next_adjustment_notice")
 
     region_status = {
         code: {
@@ -192,6 +198,7 @@ def collect_uniform_province(province_cfg, data_dir, now, session, sleep, delay)
         "cities": [],
         "next_forecast": next_forecast,
         "next_adjustment_at": next_adjustment_at,
+        "next_adjustment_notice": next_adjustment_notice,
         "fetched_at": iso(now) if error is None else previous.get("fetched_at"),
     }
     return payload, region_status, error is None, error is None
