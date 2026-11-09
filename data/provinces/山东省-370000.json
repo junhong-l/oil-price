@@ -1,22 +1,22 @@
 {
-  "province": "吉林省",
-  "province_code": "220000",
+  "province": "山东省",
+  "province_code": "370000",
   "currency": "CNY",
   "uniform_pricing": true,
   "current_prices": {
     "gasoline_92": 8.85,
-    "gasoline_95": 9.55,
-    "gasoline_98": 10.4,
+    "gasoline_95": 9.49,
+    "gasoline_98": 10.49,
     "diesel_0": 8.5
   },
   "next_prices": {
     "gasoline_92": 8.93,
-    "gasoline_95": 9.63,
-    "gasoline_98": 10.48,
+    "gasoline_95": 9.57,
+    "gasoline_98": 10.57,
     "diesel_0": 8.58
   },
   "cities": [],
   "next_forecast": "up",
   "next_adjustment_at": "2026-11-13T00:00:00+08:00",
-  "fetched_at": "2026-11-09T13:49:27.566790+08:00"
+  "fetched_at": "2026-11-09T14:12:26.046102+08:00"
 }

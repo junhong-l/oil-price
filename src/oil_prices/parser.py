@@ -1,9 +1,13 @@
 """Pure HTML parsing for qiyoujiage.com pages (no network access)."""
 
+import logging
+import math
 import re
 from datetime import datetime, timedelta, timezone
 
 from bs4 import BeautifulSoup
+
+logger = logging.getLogger(__name__)
 
 BEIJING_TZ = timezone(timedelta(hours=8))
 
@@ -38,11 +42,11 @@ def empty_prices():
     return {key: None for key in GRADE_KEYS.values()}
 
 
-def parse_city_prices(html, region_name):
+def parse_city_prices(html):
     """Return the four current prices for one city page.
 
-    Raises ParseError when labels belong to another region, a value is
-    not a positive number, or no price block is present.
+    Invalid individual prices remain None and produce warnings.
+    Raises ParseError when no price block or supported price labels are present.
     """
     soup = BeautifulSoup(html, "html.parser")
     block = soup.select_one("#youjia")
@@ -54,26 +58,31 @@ def parse_city_prices(html, region_name):
     for dl in block.find_all("dl"):
         dt = dl.find("dt")
         dd = dl.find("dd")
-        if dt is None or dd is None:
+        if dt is None:
+            logger.warning("Price entry has no label; skipping entry")
             continue
         match = _LABEL_RE.match(dt.get_text(strip=True))
         if match is None:
-            raise ParseError(f"unrecognised price label: {dt.get_text(strip=True)!r}")
-        if match.group("region") != region_name:
-            raise ParseError(
-                f"label region {match.group('region')!r} does not match {region_name!r}"
-            )
+            logger.warning("Unrecognised price label: %r", dt.get_text(strip=True))
+            continue
         key = GRADE_KEYS.get(match.group("grade"))
         if key is None:
-            raise ParseError(f"unknown grade in label: {dt.get_text(strip=True)!r}")
+            logger.warning("Unknown grade in label: %r", dt.get_text(strip=True))
+            continue
+        found += 1
+        prices[key] = None
+        if dd is None:
+            logger.warning("Missing price for %s; storing null", key)
+            continue
         try:
             value = float(dd.get_text(strip=True))
-        except ValueError as exc:
-            raise ParseError(f"invalid price for {key}") from exc
-        if value <= 0:
-            raise ParseError(f"non-positive price for {key}: {value}")
+        except ValueError:
+            logger.warning("Invalid price for %s: %r; storing null", key, dd.get_text(strip=True))
+            continue
+        if not math.isfinite(value) or value <= 0:
+            logger.warning("Non-positive or non-finite price for %s: %r; storing null", key, value)
+            continue
         prices[key] = value
-        found += 1
 
     if found == 0:
         raise ParseError("no prices found in #youjia")

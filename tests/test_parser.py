@@ -25,7 +25,7 @@ def notice_html(text):
 
 class ParseCityPricesTests(unittest.TestCase):
     def test_chengdu_prices(self):
-        prices = parse_city_prices(read_fixture("chengdu.html"), "成都")
+        prices = parse_city_prices(read_fixture("chengdu.html"))
         self.assertEqual(prices, {
             "gasoline_92": 8.98,
             "gasoline_95": 9.59,
@@ -34,32 +34,69 @@ class ParseCityPricesTests(unittest.TestCase):
         })
 
     def test_ganzi_prices_differ_from_chengdu(self):
-        prices = parse_city_prices(read_fixture("ganzi.html"), "甘孜")
+        prices = parse_city_prices(read_fixture("ganzi.html"))
         self.assertEqual(prices["gasoline_92"], 9.13)
         self.assertEqual(prices["gasoline_95"], 9.75)
         self.assertEqual(prices["gasoline_98"], 11.04)
         self.assertEqual(prices["diesel_0"], 8.79)
 
-    def test_wrong_region_label_is_rejected(self):
-        with self.assertRaises(ParseError):
-            parse_city_prices(read_fixture("ganzi.html"), "成都")
+    def test_region_label_does_not_affect_prices(self):
+        html = read_fixture("chengdu.html")
+        self.assertEqual(
+            parse_city_prices(html.replace("成都", "兴安盟")),
+            parse_city_prices(html),
+        )
 
     def test_missing_grade_becomes_none(self):
         html = read_fixture("chengdu.html").replace(
             "<dl>\n<dt>成都98#汽油</dt>\n<dd>10.95</dd>\n</dl>", ""
         )
-        prices = parse_city_prices(html, "成都")
+        prices = parse_city_prices(html)
         self.assertIsNone(prices["gasoline_98"])
         self.assertEqual(prices["gasoline_92"], 8.98)
 
-    def test_non_positive_price_is_rejected(self):
+    def test_non_positive_price_only_nulls_affected_grade(self):
         html = read_fixture("chengdu.html").replace("<dd>8.62</dd>", "<dd>0</dd>")
-        with self.assertRaises(ParseError):
-            parse_city_prices(html, "成都")
+        with self.assertLogs("oil_prices.parser", level="WARNING"):
+            prices = parse_city_prices(html)
+        self.assertIsNone(prices["diesel_0"])
+        self.assertEqual(prices["gasoline_92"], 8.98)
+
+    def test_invalid_price_only_nulls_affected_grade(self):
+        for value in ("", "-", "暂无", "NaN", "inf", "-1"):
+            with self.subTest(value=value):
+                html = read_fixture("chengdu.html").replace("<dd>10.95</dd>", f"<dd>{value}</dd>")
+                with self.assertLogs("oil_prices.parser", level="WARNING"):
+                    prices = parse_city_prices(html)
+                self.assertEqual(prices, {
+                    "gasoline_92": 8.98, "gasoline_95": 9.59,
+                    "gasoline_98": None, "diesel_0": 8.62,
+                })
+
+    def test_missing_price_element_only_nulls_affected_grade(self):
+        html = read_fixture("chengdu.html").replace("<dd>10.95</dd>", "")
+        with self.assertLogs("oil_prices.parser", level="WARNING"):
+            prices = parse_city_prices(html)
+        self.assertIsNone(prices["gasoline_98"])
+        self.assertEqual(prices["gasoline_92"], 8.98)
 
     def test_missing_price_block_is_rejected(self):
         with self.assertRaises(ParseError):
-            parse_city_prices("<html><body>error</body></html>", "成都")
+            parse_city_prices("<html><body>error</body></html>")
+
+    def test_unrecognised_label_does_not_discard_other_prices(self):
+        html = read_fixture("chengdu.html").replace("成都92#汽油", "invalid")
+        with self.assertLogs("oil_prices.parser", level="WARNING"):
+            prices = parse_city_prices(html)
+        self.assertIsNone(prices["gasoline_92"])
+        self.assertEqual(prices["gasoline_95"], 9.59)
+
+    def test_unknown_grade_does_not_discard_other_prices(self):
+        html = read_fixture("chengdu.html").replace("成都92#汽油", "成都93#汽油")
+        with self.assertLogs("oil_prices.parser", level="WARNING"):
+            prices = parse_city_prices(html)
+        self.assertIsNone(prices["gasoline_92"])
+        self.assertEqual(prices["gasoline_95"], 9.59)
 
 
 class ParseNoticeTests(unittest.TestCase):

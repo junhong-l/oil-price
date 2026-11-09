@@ -247,20 +247,20 @@
       "city_code": "659001",
       "source_url": "http://www.qiyoujiage.com/xinjiang.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.69,
+        "gasoline_95": 9.29,
+        "gasoline_98": 10.55,
+        "diesel_0": 8.35
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.77,
+        "gasoline_95": 9.37,
+        "gasoline_98": 10.63,
+        "diesel_0": 8.43
       }
     }
   ],
   "next_forecast": "up",
   "next_adjustment_at": "2026-11-13T00:00:00+08:00",
-  "fetched_at": null
+  "fetched_at": "2026-11-09T14:12:26.046102+08:00"
 }

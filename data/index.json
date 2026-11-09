@@ -1,345 +1,256 @@
 {
-  "generated_at": "2026-11-09T13:59:36.986930+08:00",
+  "generated_at": "2026-11-09T14:19:19.741428+08:00",
   "configured_provinces_complete": false,
   "provinces": [
     {
       "province_code": "110000",
       "province": "北京市",
       "uniform_pricing": true,
-      "path": "provinces/110000.json",
-      "expected_cities": 1,
-      "successful_cities": 1,
-      "missing_cities": [],
+      "path": "provinces/北京市-110000.json",
       "province_page_ok": true
     },
     {
       "province_code": "120000",
       "province": "天津市",
       "uniform_pricing": true,
-      "path": "provinces/120000.json",
-      "expected_cities": 1,
-      "successful_cities": 1,
-      "missing_cities": [],
+      "path": "provinces/天津市-120000.json",
       "province_page_ok": true
     },
     {
       "province_code": "130000",
       "province": "河北省",
       "uniform_pricing": true,
-      "path": "provinces/130000.json",
-      "expected_cities": 11,
-      "successful_cities": 11,
-      "missing_cities": [],
+      "path": "provinces/河北省-130000.json",
       "province_page_ok": true
     },
     {
       "province_code": "140000",
       "province": "山西省",
       "uniform_pricing": true,
-      "path": "provinces/140000.json",
-      "expected_cities": 11,
-      "successful_cities": 11,
-      "missing_cities": [],
+      "path": "provinces/山西省-140000.json",
       "province_page_ok": true
     },
     {
       "province_code": "150000",
       "province": "内蒙古自治区",
       "uniform_pricing": false,
-      "path": "provinces/150000.json",
+      "path": "provinces/内蒙古自治区-150000.json",
+      "province_page_ok": true,
       "expected_cities": 12,
-      "successful_cities": 11,
-      "missing_cities": [
-        "152200"
-      ],
-      "province_page_ok": true
+      "successful_cities": 12,
+      "missing_cities": []
     },
     {
       "province_code": "210000",
       "province": "辽宁省",
       "uniform_pricing": false,
-      "path": "provinces/210000.json",
+      "path": "provinces/辽宁省-210000.json",
+      "province_page_ok": true,
       "expected_cities": 14,
       "successful_cities": 14,
-      "missing_cities": [],
-      "province_page_ok": true
+      "missing_cities": []
     },
     {
       "province_code": "220000",
       "province": "吉林省",
       "uniform_pricing": true,
-      "path": "provinces/220000.json",
-      "expected_cities": 9,
-      "successful_cities": 9,
-      "missing_cities": [],
+      "path": "provinces/吉林省-220000.json",
       "province_page_ok": true
     },
     {
       "province_code": "230000",
       "province": "黑龙江省",
       "uniform_pricing": false,
-      "path": "provinces/230000.json",
+      "path": "provinces/黑龙江省-230000.json",
+      "province_page_ok": true,
       "expected_cities": 13,
-      "successful_cities": 12,
-      "missing_cities": [
-        "230700"
-      ],
-      "province_page_ok": true
+      "successful_cities": 13,
+      "missing_cities": []
     },
     {
       "province_code": "310000",
       "province": "上海市",
       "uniform_pricing": true,
-      "path": "provinces/310000.json",
-      "expected_cities": 1,
-      "successful_cities": 1,
-      "missing_cities": [],
+      "path": "provinces/上海市-310000.json",
       "province_page_ok": true
     },
     {
       "province_code": "320000",
       "province": "江苏省",
       "uniform_pricing": true,
-      "path": "provinces/320000.json",
-      "expected_cities": 13,
-      "successful_cities": 13,
-      "missing_cities": [],
+      "path": "provinces/江苏省-320000.json",
       "province_page_ok": true
     },
     {
       "province_code": "330000",
       "province": "浙江省",
       "uniform_pricing": true,
-      "path": "provinces/330000.json",
-      "expected_cities": 11,
-      "successful_cities": 11,
-      "missing_cities": [],
+      "path": "provinces/浙江省-330000.json",
       "province_page_ok": true
     },
     {
       "province_code": "340000",
       "province": "安徽省",
       "uniform_pricing": true,
-      "path": "provinces/340000.json",
-      "expected_cities": 16,
-      "successful_cities": 16,
-      "missing_cities": [],
+      "path": "provinces/安徽省-340000.json",
       "province_page_ok": true
     },
     {
       "province_code": "350000",
       "province": "福建省",
       "uniform_pricing": true,
-      "path": "provinces/350000.json",
-      "expected_cities": 9,
-      "successful_cities": 9,
-      "missing_cities": [],
+      "path": "provinces/福建省-350000.json",
       "province_page_ok": true
     },
     {
       "province_code": "360000",
       "province": "江西省",
       "uniform_pricing": true,
-      "path": "provinces/360000.json",
-      "expected_cities": 11,
-      "successful_cities": 11,
-      "missing_cities": [],
+      "path": "provinces/江西省-360000.json",
       "province_page_ok": true
     },
     {
       "province_code": "370000",
       "province": "山东省",
       "uniform_pricing": true,
-      "path": "provinces/370000.json",
-      "expected_cities": 16,
-      "successful_cities": 0,
-      "missing_cities": [
-        "370100",
-        "370200",
-        "370300",
-        "370400",
-        "370500",
-        "370600",
-        "370700",
-        "370800",
-        "370900",
-        "371000",
-        "371100",
-        "371300",
-        "371400",
-        "371500",
-        "371600",
-        "371700"
-      ],
-      "province_page_ok": false
+      "path": "provinces/山东省-370000.json",
+      "province_page_ok": true
     },
     {
       "province_code": "410000",
       "province": "河南省",
       "uniform_pricing": true,
-      "path": "provinces/410000.json",
-      "expected_cities": 18,
-      "successful_cities": 18,
-      "missing_cities": [],
+      "path": "provinces/河南省-410000.json",
       "province_page_ok": true
     },
     {
       "province_code": "420000",
       "province": "湖北省",
       "uniform_pricing": true,
-      "path": "provinces/420000.json",
-      "expected_cities": 17,
-      "successful_cities": 17,
-      "missing_cities": [],
+      "path": "provinces/湖北省-420000.json",
       "province_page_ok": true
     },
     {
       "province_code": "430000",
       "province": "湖南省",
       "uniform_pricing": true,
-      "path": "provinces/430000.json",
-      "expected_cities": 14,
-      "successful_cities": 14,
-      "missing_cities": [],
+      "path": "provinces/湖南省-430000.json",
       "province_page_ok": true
     },
     {
       "province_code": "440000",
       "province": "广东省",
       "uniform_pricing": true,
-      "path": "provinces/440000.json",
-      "expected_cities": 21,
-      "successful_cities": 21,
-      "missing_cities": [],
+      "path": "provinces/广东省-440000.json",
       "province_page_ok": true
     },
     {
       "province_code": "450000",
       "province": "广西壮族自治区",
       "uniform_pricing": true,
-      "path": "provinces/450000.json",
-      "expected_cities": 14,
-      "successful_cities": 14,
-      "missing_cities": [],
+      "path": "provinces/广西壮族自治区-450000.json",
       "province_page_ok": true
     },
     {
       "province_code": "460000",
       "province": "海南省",
       "uniform_pricing": true,
-      "path": "provinces/460000.json",
-      "expected_cities": 4,
-      "successful_cities": 4,
-      "missing_cities": [],
+      "path": "provinces/海南省-460000.json",
       "province_page_ok": true
     },
     {
       "province_code": "500000",
       "province": "重庆市",
       "uniform_pricing": true,
-      "path": "provinces/500000.json",
-      "expected_cities": 1,
-      "successful_cities": 1,
-      "missing_cities": [],
+      "path": "provinces/重庆市-500000.json",
       "province_page_ok": true
     },
     {
       "province_code": "510000",
       "province": "四川省",
       "uniform_pricing": false,
-      "path": "provinces/510000.json",
+      "path": "provinces/四川省-510000.json",
+      "province_page_ok": true,
       "expected_cities": 21,
       "successful_cities": 21,
-      "missing_cities": [],
-      "province_page_ok": true
+      "missing_cities": []
     },
     {
       "province_code": "520000",
       "province": "贵州省",
       "uniform_pricing": false,
-      "path": "provinces/520000.json",
+      "path": "provinces/贵州省-520000.json",
+      "province_page_ok": true,
       "expected_cities": 9,
       "successful_cities": 9,
-      "missing_cities": [],
-      "province_page_ok": true
+      "missing_cities": []
     },
     {
       "province_code": "530000",
       "province": "云南省",
       "uniform_pricing": false,
-      "path": "provinces/530000.json",
+      "path": "provinces/云南省-530000.json",
+      "province_page_ok": true,
       "expected_cities": 16,
-      "successful_cities": 15,
-      "missing_cities": [
-        "533400"
-      ],
-      "province_page_ok": true
+      "successful_cities": 16,
+      "missing_cities": []
     },
     {
       "province_code": "540000",
       "province": "西藏自治区",
       "uniform_pricing": false,
-      "path": "provinces/540000.json",
+      "path": "provinces/西藏自治区-540000.json",
+      "province_page_ok": true,
       "expected_cities": 7,
-      "successful_cities": 4,
+      "successful_cities": 5,
       "missing_cities": [
-        "540200",
         "540300",
         "542500"
-      ],
-      "province_page_ok": true
+      ]
     },
     {
       "province_code": "610000",
       "province": "陕西省",
       "uniform_pricing": false,
-      "path": "provinces/610000.json",
+      "path": "provinces/陕西省-610000.json",
+      "province_page_ok": true,
       "expected_cities": 10,
       "successful_cities": 10,
-      "missing_cities": [],
-      "province_page_ok": true
+      "missing_cities": []
     },
     {
       "province_code": "620000",
       "province": "甘肃省",
       "uniform_pricing": true,
-      "path": "provinces/620000.json",
-      "expected_cities": 14,
-      "successful_cities": 14,
-      "missing_cities": [],
+      "path": "provinces/甘肃省-620000.json",
       "province_page_ok": true
     },
     {
       "province_code": "630000",
       "province": "青海省",
       "uniform_pricing": false,
-      "path": "provinces/630000.json",
+      "path": "provinces/青海省-630000.json",
+      "province_page_ok": true,
       "expected_cities": 8,
       "successful_cities": 8,
-      "missing_cities": [],
-      "province_page_ok": true
+      "missing_cities": []
     },
     {
       "province_code": "640000",
       "province": "宁夏回族自治区",
       "uniform_pricing": true,
-      "path": "provinces/640000.json",
-      "expected_cities": 5,
-      "successful_cities": 5,
-      "missing_cities": [],
+      "path": "provinces/宁夏回族自治区-640000.json",
       "province_page_ok": true
     },
     {
       "province_code": "650000",
       "province": "新疆维吾尔自治区",
       "uniform_pricing": false,
-      "path": "provinces/650000.json",
+      "path": "provinces/新疆维吾尔自治区-650000.json",
+      "province_page_ok": true,
       "expected_cities": 15,
-      "successful_cities": 14,
-      "missing_cities": [
-        "659001"
-      ],
-      "province_page_ok": true
+      "successful_cities": 15,
+      "missing_cities": []
     }
   ]
 }

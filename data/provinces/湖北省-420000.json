@@ -1,22 +1,22 @@
 {
-  "province": "河南省",
-  "province_code": "410000",
+  "province": "湖北省",
+  "province_code": "420000",
   "currency": "CNY",
   "uniform_pricing": true,
   "current_prices": {
     "gasoline_92": 8.9,
-    "gasoline_95": 9.5,
-    "gasoline_98": 10.75,
+    "gasoline_95": 9.53,
+    "gasoline_98": 10.93,
     "diesel_0": 8.58
   },
   "next_prices": {
     "gasoline_92": 8.98,
-    "gasoline_95": 9.58,
-    "gasoline_98": 10.83,
+    "gasoline_95": 9.61,
+    "gasoline_98": 11.01,
     "diesel_0": 8.66
   },
   "cities": [],
   "next_forecast": "up",
   "next_adjustment_at": "2026-11-13T00:00:00+08:00",
-  "fetched_at": "2026-11-09T13:49:27.566790+08:00"
+  "fetched_at": "2026-11-09T14:12:26.046102+08:00"
 }

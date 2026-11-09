@@ -55,8 +55,8 @@ src/oil_prices/fetcher.py
 src/oil_prices/parser.py
 src/oil_prices/collector.py
 config/regions.json
-data/provinces/510000.json
-data/provinces/440000.json
+data/provinces/四川省-510000.json
+data/provinces/广东省-440000.json
 data/index.json
 data/status.json
 tests/test_parser.py
@@ -104,7 +104,7 @@ python -m src.oil_prices
 
 1. 使用可溯源、允许使用的行政区划清单列出预期城市，记录清单日期和来源。
 2. 人工或开发阶段受控确认候选 URL，每个候选只做有限验证，不枚举大量可能拼音。
-3. 同时验证 HTTP 状态、页面地区名称、价格标签与返回内容，防止“200 状态但实际是首页/错误页”。
+3. 人工确认页面对应地区；采集时信任配置 URL，只验证 HTTP 状态、价格标签与返回内容，不比较网页地区名称与配置名称。
 4. 把验证通过的链接写入清单；定时任务不重复进行搜索引擎检索和大规模路径试探。
 
 直辖市按实际页面建模，不为了凑层级虚构城市子页。
@@ -123,7 +123,7 @@ python -m src.oil_prices
 - 如果服务端支持 ETag / Last-Modified，可使用条件请求；304 时复用已有解析结果。
 - 按标签与 DOM 结构提取，不使用“取页面前四个数字”的脆弱策略。
 - 价格以十进制定点方式处理，避免浮点误差。
-- 校验价格大于零、标号对应正确、地区名称符合清单；明显异常应拒绝写入并报告，不得自动修正。
+- 逐油品校验价格为有限正数、标号对应正确；不校验网页地区名称是否与清单一致。单个油品缺失、解析失败或数值异常时只将该油品及其下次价格设为 `null`，记录警告，其他有效油品正常写入，不回退整个地区的旧价格。缺少价格区块或没有可识别的支持油品标签时仍按地区失败处理。
 - 若网站改版导致价格缺失，不得把缺失当作零。
 - 不执行页面脚本，不执行从网页提取的任何命令。
 
@@ -131,7 +131,7 @@ python -m src.oil_prices
 
 ## 6. 数据格式
 
-每个省一个文件，例如 `data/provinces/510000.json`。JSON 字段名及枚举值使用英文；地区名称等自然语言数据值可使用中文。省级 JSON 只使用以下一级字段；除 `cities` 外不再增加其他一级字段。城市记录只使用示例中的字段，当前价和下次价各包含四种油品：
+每个省一个文件，例如 `data/provinces/四川省-510000.json`。JSON 字段名及枚举值使用英文；地区名称等自然语言数据值可使用中文。省级 JSON 只使用以下一级字段；除 `cities` 外不再增加其他一级字段。城市记录只使用示例中的字段，当前价和下次价各包含四种油品：
 
 ```json
 {
@@ -176,6 +176,10 @@ python -m src.oil_prices
 - `fetched_at`：本省数据本次成功采集的北京时间 ISO 8601 时间；每次本省采集成功时更新，因此即使价格未变，省文件也可能产生时间戳差异。
 
 `data/status.json` 保存本轮开始/结束时间、总体状态、各地区最后尝试时间、最后成功时间、错误和是否使用旧数据。`fetched_at` 记录在各省 JSON 中；状态文件可记录任务级状态。成功时间更新允许产生每日状态提交，但不可声称“完全没变化就绝不提交”。
+
+统一省价（`uniform_pricing: true`）只请求省级页面，`data/status.json` 只以省代码记录一条状态，不展示下属城市。`data/index.json` 中这类省份只记录省级页面状态，不输出 `expected_cities`、`successful_cities`、`missing_cities`。非统一省价继续逐城市采集并记录城市状态和覆盖统计。
+
+配置中统一省价的省份保留省级名称、代码及 URL，`cities` 为空数组，不列出下属城市名称、代码或 URL。当前配置包含 21 个统一省价省份，以及其余 10 个省份的 125 个城市记录。
 
 `data/index.json` 保存所有省文件的相对地址、成功城市数、预期城市数、缺失城市列表。覆盖统计必须基于清单计算，区分“已有配置全部成功”和“全国覆盖完整”。
 
@@ -314,13 +318,13 @@ README 必须向用户提供以下可执行步骤：
 默认通过 GitHub Raw 读取：
 
 ```text
-https://raw.githubusercontent.com/<OWNER>/<REPO>/<BRANCH>/data/provinces/510000.json
+https://raw.githubusercontent.com/<OWNER>/<REPO>/<BRANCH>/data/provinces/四川省-510000.json
 ```
 
 若启用 GitHub Pages 并从默认分支根目录发布，预计地址为：
 
 ```text
-https://<OWNER>.github.io/<REPO>/data/provinces/510000.json
+https://<OWNER>.github.io/<REPO>/data/provinces/四川省-510000.json
 ```
 
 Pages 是可选项。若要求自动提交后自动发布，不要假设 `GITHUB_TOKEN` 提交会再次触发另一个 push workflow；应把 Pages 官方 artifact 构建/部署接在同一个 workflow 中，授予 `pages: write`、`id-token: write` 并配置 `github-pages` environment。需在实施时核查 GitHub 当前官方 Pages 部署步骤。
@@ -336,7 +340,7 @@ Pages 是可选项。若要求自动提交后自动发布，不要假设 `GITHUB
 - 四种油品按正确标签解析，布局空白变化不影响结果。
 - 成都与甘孜 fixture 解析为不同价格，禁止省价覆盖城市价。
 - 缺失 98 号时返回 `null` 并报告缺失，不制造数值。
-- 200 错误页、地区不匹配、首页重定向被拒绝。
+- 缺少价格区块的 200 错误页或首页被拒绝；配置 URL 返回的有效价格不因地区标签名称不同而被拒绝。
 - 价格以数值形式正确解析，缺失油品保持 `null`。
 - 调价“24时”、跨年、过期预测、缺失年份的解析正确。
 - 只有整体涨跌描述时正确填写方向，且不据此生成逐油品下次价格。

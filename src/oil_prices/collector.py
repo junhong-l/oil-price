@@ -47,10 +47,21 @@ def iso(now):
     return now.astimezone(BEIJING_TZ).isoformat()
 
 
+def province_filename(province):
+    return f"{province['province']}-{province['province_code']}.json"
+
+
+def load_previous_province(data_dir, province):
+    previous = load_json(data_dir / "provinces" / province_filename(province))
+    if previous is None:
+        previous = load_json(data_dir / "provinces" / f"{province['province_code']}.json")
+    return previous or {}
+
+
 def collect_province(province_cfg, data_dir, now, session, sleep, delay):
     """Return (payload, city_status, all_ok, province_page_ok)."""
     code = province_cfg["province_code"]
-    previous = load_json(data_dir / "provinces" / f"{code}.json") or {}
+    previous = load_previous_province(data_dir, province_cfg)
     previous_cities = {c["city_code"]: c for c in previous.get("cities", [])}
 
     all_ok = True
@@ -80,7 +91,7 @@ def collect_province(province_cfg, data_dir, now, session, sleep, delay):
         sleep(delay + random.uniform(0, REQUEST_JITTER_SECONDS))
         try:
             html = fetch_html(session, city_cfg["source_url"], sleep=sleep)
-            prices = parse_city_prices(html, city_cfg["source_region_name"])
+            prices = parse_city_prices(html)
         except FatalFetchError:
             raise
         except (FetchError, ParseError) as exc:
@@ -143,12 +154,12 @@ def collect_uniform_province(province_cfg, data_dir, now, session, sleep, delay)
     Return (payload, city_status, all_ok, province_page_ok) like collect_province.
     """
     code = province_cfg["province_code"]
-    previous = load_json(data_dir / "provinces" / f"{code}.json") or {}
+    previous = load_previous_province(data_dir, province_cfg)
     attempt_at = iso(now)
     sleep(delay + random.uniform(0, REQUEST_JITTER_SECONDS))
     try:
         html = fetch_html(session, province_cfg["province_source_url"], sleep=sleep)
-        prices = parse_city_prices(html, province_cfg["source_region_name"])
+        prices = parse_city_prices(html)
         next_forecast, next_adjustment_at = parse_notice(html, now)
         next_change = parse_max_change_per_liter(html)
         next_prices = estimate_next_prices(prices, next_forecast, next_change, next_adjustment_at, now)
@@ -162,14 +173,14 @@ def collect_uniform_province(province_cfg, data_dir, now, session, sleep, delay)
         next_forecast = previous.get("next_forecast")
         next_adjustment_at = previous.get("next_adjustment_at")
 
-    city_status = {}
-    for city_cfg in province_cfg["cities"]:
-        city_status[city_cfg["city_code"]] = {
+    region_status = {
+        code: {
             "last_attempt_at": attempt_at,
             "last_success_at": None if error else attempt_at,
             "error": error,
             "stale": error is not None and bool(previous),
         }
+    }
 
     payload = {
         "province": province_cfg["province"],
@@ -183,7 +194,7 @@ def collect_uniform_province(province_cfg, data_dir, now, session, sleep, delay)
         "next_adjustment_at": next_adjustment_at,
         "fetched_at": iso(now) if error is None else previous.get("fetched_at"),
     }
-    return payload, city_status, error is None, error is None
+    return payload, region_status, error is None, error is None
 
 
 def run(config_path, data_dir, now=None, session=None, sleep=time.sleep,
@@ -215,9 +226,17 @@ def run(config_path, data_dir, now=None, session=None, sleep=time.sleep,
             fatal_error = str(exc)
             break
 
-        write_json_atomic(data_dir / "provinces" / f"{payload['province_code']}.json", payload)
+        filename = province_filename(payload)
+        write_json_atomic(data_dir / "provinces" / filename, payload)
+        legacy_path = data_dir / "provinces" / f"{payload['province_code']}.json"
+        if legacy_path.exists():
+            legacy_path.unlink()
 
-        configured_codes = [c["city_code"] for c in province_cfg["cities"]]
+        uniform_pricing = payload["uniform_pricing"]
+        configured_codes = (
+            [payload["province_code"]] if uniform_pricing
+            else [c["city_code"] for c in province_cfg["cities"]]
+        )
         successful = []
         missing = []
         for code in configured_codes:
@@ -242,16 +261,20 @@ def run(config_path, data_dir, now=None, session=None, sleep=time.sleep,
         if successful:
             any_success = True
 
-        index_entries.append({
+        index_entry = {
             "province_code": payload["province_code"],
             "province": payload["province"],
             "uniform_pricing": payload["uniform_pricing"],
-            "path": f"provinces/{payload['province_code']}.json",
-            "expected_cities": len(configured_codes),
-            "successful_cities": len(successful),
-            "missing_cities": missing,
+            "path": f"provinces/{filename}",
             "province_page_ok": province_page_ok,
-        })
+        }
+        if not uniform_pricing:
+            index_entry.update({
+                "expected_cities": len(configured_codes),
+                "successful_cities": len(successful),
+                "missing_cities": missing,
+            })
+        index_entries.append(index_entry)
 
     if fatal_error:
         overall = "failed"

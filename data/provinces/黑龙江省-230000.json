@@ -111,16 +111,16 @@
       "city_code": "230700",
       "source_url": "http://www.qiyoujiage.com/heilongjiang/yichunshi.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.85,
+        "gasoline_95": 9.48,
+        "gasoline_98": 10.75,
+        "diesel_0": 8.36
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.93,
+        "gasoline_95": 9.56,
+        "gasoline_98": 10.83,
+        "diesel_0": 8.44
       }
     },
     {
@@ -228,5 +228,5 @@
   ],
   "next_forecast": "up",
   "next_adjustment_at": "2026-11-13T00:00:00+08:00",
-  "fetched_at": null
+  "fetched_at": "2026-11-09T14:12:26.046102+08:00"
 }

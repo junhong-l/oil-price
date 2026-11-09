@@ -28,10 +28,22 @@ class RegionsConfigTest(unittest.TestCase):
 
     def test_every_city_has_label_and_allowed_url(self):
         for p in self.provinces:
-            self.assertTrue(p["cities"], p["province"])
+            self.assertTrue(p["province_source_url"].startswith(ALLOWED_PREFIX),
+                            p["province_source_url"])
+            if p["uniform_pricing"]:
+                self.assertEqual(p["cities"], [], p["province"])
+            else:
+                self.assertTrue(p["cities"], p["province"])
             for c in p["cities"]:
                 self.assertTrue(c["source_region_name"], c["city_name"])
                 self.assertTrue(c["source_url"].startswith(ALLOWED_PREFIX), c["source_url"])
+
+    def test_uniform_provinces_only_have_province_records(self):
+        self.assertEqual(sum(p["uniform_pricing"] for p in self.provinces), 21)
+        self.assertEqual(sum(len(p["cities"]) for p in self.provinces), 125)
+        hebei = next(p for p in self.provinces if p["province_code"] == "130000")
+        self.assertTrue(hebei["uniform_pricing"])
+        self.assertEqual(hebei["cities"], [])
 
 
 if __name__ == "__main__":
