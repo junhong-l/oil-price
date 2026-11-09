@@ -2,6 +2,7 @@
   "province": "青海省",
   "province_code": "630000",
   "currency": "CNY",
+  "uniform_pricing": false,
   "cities": [
     {
       "city_name": "西宁市",
@@ -74,35 +75,35 @@
     {
       "city_name": "海南藏族自治州",
       "city_code": "632500",
-      "source_url": "http://www.qiyoujiage.com/qinghai/hainan.shtml",
+      "source_url": "http://www.qiyoujiage.com/qinghai/hailanzhou.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.94,
+        "gasoline_95": 9.58,
+        "gasoline_98": 10.43,
+        "diesel_0": 8.59
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 9.02,
+        "gasoline_95": 9.66,
+        "gasoline_98": 10.51,
+        "diesel_0": 8.67
       }
     },
     {
       "city_name": "果洛藏族自治州",
       "city_code": "632600",
-      "source_url": "http://www.qiyoujiage.com/qinghai/guoluo.shtml",
+      "source_url": "http://www.qiyoujiage.com/qinghai/golog.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 9.04,
+        "gasoline_95": 9.69,
+        "gasoline_98": 10.56,
+        "diesel_0": 8.7
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 9.12,
+        "gasoline_95": 9.77,
+        "gasoline_98": 10.64,
+        "diesel_0": 8.78
       }
     },
     {
@@ -142,5 +143,5 @@
   ],
   "next_forecast": "up",
   "next_adjustment_at": "2026-11-13T00:00:00+08:00",
-  "fetched_at": null
+  "fetched_at": "2026-11-09T13:35:06.731642+08:00"
 }

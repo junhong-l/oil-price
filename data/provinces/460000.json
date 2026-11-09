@@ -2,77 +2,21 @@
   "province": "海南省",
   "province_code": "460000",
   "currency": "CNY",
-  "cities": [
-    {
-      "city_name": "海口市",
-      "city_code": "460100",
-      "source_url": "http://www.qiyoujiage.com/hainan/haikou.shtml",
-      "current_prices": {
-        "gasoline_92": 10.0,
-        "gasoline_95": 10.63,
-        "gasoline_98": 12.05,
-        "diesel_0": 8.68
-      },
-      "next_prices": {
-        "gasoline_92": 10.08,
-        "gasoline_95": 10.71,
-        "gasoline_98": 12.13,
-        "diesel_0": 8.76
-      }
-    },
-    {
-      "city_name": "三亚市",
-      "city_code": "460200",
-      "source_url": "http://www.qiyoujiage.com/hainan/sanya.shtml",
-      "current_prices": {
-        "gasoline_92": 10.0,
-        "gasoline_95": 10.63,
-        "gasoline_98": 12.05,
-        "diesel_0": 8.68
-      },
-      "next_prices": {
-        "gasoline_92": 10.08,
-        "gasoline_95": 10.71,
-        "gasoline_98": 12.13,
-        "diesel_0": 8.76
-      }
-    },
-    {
-      "city_name": "三沙市",
-      "city_code": "460300",
-      "source_url": "http://www.qiyoujiage.com/hainan/sansha.shtml",
-      "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
-      },
-      "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
-      }
-    },
-    {
-      "city_name": "儋州市",
-      "city_code": "460400",
-      "source_url": "http://www.qiyoujiage.com/hainan/danzhou.shtml",
-      "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
-      },
-      "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
-      }
-    }
-  ],
+  "uniform_pricing": true,
+  "current_prices": {
+    "gasoline_92": 10.0,
+    "gasoline_95": 10.63,
+    "gasoline_98": 12.05,
+    "diesel_0": 8.68
+  },
+  "next_prices": {
+    "gasoline_92": 10.08,
+    "gasoline_95": 10.71,
+    "gasoline_98": 12.13,
+    "diesel_0": 8.76
+  },
+  "cities": [],
   "next_forecast": "up",
   "next_adjustment_at": "2026-11-13T00:00:00+08:00",
-  "fetched_at": null
+  "fetched_at": "2026-11-09T13:35:06.731642+08:00"
 }

@@ -2,39 +2,40 @@
   "province": "西藏自治区",
   "province_code": "540000",
   "currency": "CNY",
+  "uniform_pricing": false,
   "cities": [
     {
       "city_name": "拉萨市",
       "city_code": "540100",
-      "source_url": "http://www.qiyoujiage.com/xizang/lasa.shtml",
+      "source_url": "http://www.qiyoujiage.com/xizang/lhasa.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 9.75,
+        "gasoline_95": 10.32,
+        "gasoline_98": 11.5,
+        "diesel_0": 9.11
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 9.83,
+        "gasoline_95": 10.4,
+        "gasoline_98": 11.58,
+        "diesel_0": 9.19
       }
     },
     {
       "city_name": "日喀则市",
       "city_code": "540200",
-      "source_url": "http://www.qiyoujiage.com/xizang/rikaze.shtml",
+      "source_url": "http://www.qiyoujiage.com/xizang/rikeze.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 9.75,
+        "gasoline_95": 10.32,
+        "gasoline_98": 11.5,
+        "diesel_0": 9.11
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 9.83,
+        "gasoline_95": 10.4,
+        "gasoline_98": 11.58,
+        "diesel_0": 9.19
       }
     },
     {

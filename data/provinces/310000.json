@@ -2,26 +2,21 @@
   "province": "上海市",
   "province_code": "310000",
   "currency": "CNY",
-  "cities": [
-    {
-      "city_name": "上海市",
-      "city_code": "310000",
-      "source_url": "http://www.qiyoujiage.com/shanghai.shtml",
-      "current_prices": {
-        "gasoline_92": 8.85,
-        "gasoline_95": 9.41,
-        "gasoline_98": 11.41,
-        "diesel_0": 8.57
-      },
-      "next_prices": {
-        "gasoline_92": 8.93,
-        "gasoline_95": 9.49,
-        "gasoline_98": 11.49,
-        "diesel_0": 8.65
-      }
-    }
-  ],
+  "uniform_pricing": true,
+  "current_prices": {
+    "gasoline_92": 8.85,
+    "gasoline_95": 9.41,
+    "gasoline_98": 11.41,
+    "diesel_0": 8.57
+  },
+  "next_prices": {
+    "gasoline_92": 8.93,
+    "gasoline_95": 9.49,
+    "gasoline_98": 11.49,
+    "diesel_0": 8.65
+  },
+  "cities": [],
   "next_forecast": "up",
   "next_adjustment_at": "2026-11-13T00:00:00+08:00",
-  "fetched_at": "2026-11-09T12:29:12.976352+08:00"
+  "fetched_at": "2026-11-09T13:35:06.731642+08:00"
 }

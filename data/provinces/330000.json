@@ -2,196 +2,21 @@
   "province": "浙江省",
   "province_code": "330000",
   "currency": "CNY",
-  "cities": [
-    {
-      "city_name": "杭州市",
-      "city_code": "330100",
-      "source_url": "http://www.qiyoujiage.com/zhejiang/hangzhou.shtml",
-      "current_prices": {
-        "gasoline_92": 8.85,
-        "gasoline_95": 9.42,
-        "gasoline_98": 10.92,
-        "diesel_0": 8.57
-      },
-      "next_prices": {
-        "gasoline_92": 8.93,
-        "gasoline_95": 9.5,
-        "gasoline_98": 11.0,
-        "diesel_0": 8.65
-      }
-    },
-    {
-      "city_name": "宁波市",
-      "city_code": "330200",
-      "source_url": "http://www.qiyoujiage.com/zhejiang/ningbo.shtml",
-      "current_prices": {
-        "gasoline_92": 8.85,
-        "gasoline_95": 9.42,
-        "gasoline_98": 10.92,
-        "diesel_0": 8.57
-      },
-      "next_prices": {
-        "gasoline_92": 8.93,
-        "gasoline_95": 9.5,
-        "gasoline_98": 11.0,
-        "diesel_0": 8.65
-      }
-    },
-    {
-      "city_name": "温州市",
-      "city_code": "330300",
-      "source_url": "http://www.qiyoujiage.com/zhejiang/wenzhou.shtml",
-      "current_prices": {
-        "gasoline_92": 8.85,
-        "gasoline_95": 9.42,
-        "gasoline_98": 10.92,
-        "diesel_0": 8.57
-      },
-      "next_prices": {
-        "gasoline_92": 8.93,
-        "gasoline_95": 9.5,
-        "gasoline_98": 11.0,
-        "diesel_0": 8.65
-      }
-    },
-    {
-      "city_name": "嘉兴市",
-      "city_code": "330400",
-      "source_url": "http://www.qiyoujiage.com/zhejiang/jiaxing.shtml",
-      "current_prices": {
-        "gasoline_92": 8.85,
-        "gasoline_95": 9.42,
-        "gasoline_98": 10.92,
-        "diesel_0": 8.57
-      },
-      "next_prices": {
-        "gasoline_92": 8.93,
-        "gasoline_95": 9.5,
-        "gasoline_98": 11.0,
-        "diesel_0": 8.65
-      }
-    },
-    {
-      "city_name": "湖州市",
-      "city_code": "330500",
-      "source_url": "http://www.qiyoujiage.com/zhejiang/huzhou.shtml",
-      "current_prices": {
-        "gasoline_92": 8.85,
-        "gasoline_95": 9.42,
-        "gasoline_98": 10.92,
-        "diesel_0": 8.57
-      },
-      "next_prices": {
-        "gasoline_92": 8.93,
-        "gasoline_95": 9.5,
-        "gasoline_98": 11.0,
-        "diesel_0": 8.65
-      }
-    },
-    {
-      "city_name": "绍兴市",
-      "city_code": "330600",
-      "source_url": "http://www.qiyoujiage.com/zhejiang/shaoxing.shtml",
-      "current_prices": {
-        "gasoline_92": 8.85,
-        "gasoline_95": 9.42,
-        "gasoline_98": 10.92,
-        "diesel_0": 8.57
-      },
-      "next_prices": {
-        "gasoline_92": 8.93,
-        "gasoline_95": 9.5,
-        "gasoline_98": 11.0,
-        "diesel_0": 8.65
-      }
-    },
-    {
-      "city_name": "金华市",
-      "city_code": "330700",
-      "source_url": "http://www.qiyoujiage.com/zhejiang/jinhua.shtml",
-      "current_prices": {
-        "gasoline_92": 8.85,
-        "gasoline_95": 9.42,
-        "gasoline_98": 10.92,
-        "diesel_0": 8.57
-      },
-      "next_prices": {
-        "gasoline_92": 8.93,
-        "gasoline_95": 9.5,
-        "gasoline_98": 11.0,
-        "diesel_0": 8.65
-      }
-    },
-    {
-      "city_name": "衢州市",
-      "city_code": "330800",
-      "source_url": "http://www.qiyoujiage.com/zhejiang/quzhou.shtml",
-      "current_prices": {
-        "gasoline_92": 8.85,
-        "gasoline_95": 9.42,
-        "gasoline_98": 10.92,
-        "diesel_0": 8.57
-      },
-      "next_prices": {
-        "gasoline_92": 8.93,
-        "gasoline_95": 9.5,
-        "gasoline_98": 11.0,
-        "diesel_0": 8.65
-      }
-    },
-    {
-      "city_name": "舟山市",
-      "city_code": "330900",
-      "source_url": "http://www.qiyoujiage.com/zhejiang/zhoushan.shtml",
-      "current_prices": {
-        "gasoline_92": 8.85,
-        "gasoline_95": 9.42,
-        "gasoline_98": 10.92,
-        "diesel_0": 8.57
-      },
-      "next_prices": {
-        "gasoline_92": 8.93,
-        "gasoline_95": 9.5,
-        "gasoline_98": 11.0,
-        "diesel_0": 8.65
-      }
-    },
-    {
-      "city_name": "台州市",
-      "city_code": "331000",
-      "source_url": "http://www.qiyoujiage.com/zhejiang/taizhou.shtml",
-      "current_prices": {
-        "gasoline_92": 8.85,
-        "gasoline_95": 9.42,
-        "gasoline_98": 10.92,
-        "diesel_0": 8.57
-      },
-      "next_prices": {
-        "gasoline_92": 8.93,
-        "gasoline_95": 9.5,
-        "gasoline_98": 11.0,
-        "diesel_0": 8.65
-      }
-    },
-    {
-      "city_name": "丽水市",
-      "city_code": "331100",
-      "source_url": "http://www.qiyoujiage.com/zhejiang/lishui.shtml",
-      "current_prices": {
-        "gasoline_92": 8.85,
-        "gasoline_95": 9.42,
-        "gasoline_98": 10.92,
-        "diesel_0": 8.57
-      },
-      "next_prices": {
-        "gasoline_92": 8.93,
-        "gasoline_95": 9.5,
-        "gasoline_98": 11.0,
-        "diesel_0": 8.65
-      }
-    }
-  ],
+  "uniform_pricing": true,
+  "current_prices": {
+    "gasoline_92": 8.85,
+    "gasoline_95": 9.42,
+    "gasoline_98": 10.92,
+    "diesel_0": 8.57
+  },
+  "next_prices": {
+    "gasoline_92": 8.93,
+    "gasoline_95": 9.5,
+    "gasoline_98": 11.0,
+    "diesel_0": 8.65
+  },
+  "cities": [],
   "next_forecast": "up",
   "next_adjustment_at": "2026-11-13T00:00:00+08:00",
-  "fetched_at": "2026-11-09T12:29:12.976352+08:00"
+  "fetched_at": "2026-11-09T13:35:06.731642+08:00"
 }

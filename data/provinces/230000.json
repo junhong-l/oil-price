@@ -2,6 +2,7 @@
   "province": "黑龙江省",
   "province_code": "230000",
   "currency": "CNY",
+  "uniform_pricing": false,
   "cities": [
     {
       "city_name": "哈尔滨市",
@@ -23,18 +24,18 @@
     {
       "city_name": "齐齐哈尔市",
       "city_code": "230200",
-      "source_url": "http://www.qiyoujiage.com/heilongjiang/qiqihaer.shtml",
+      "source_url": "http://www.qiyoujiage.com/heilongjiang/qiqihar.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.9,
+        "gasoline_95": 9.53,
+        "gasoline_98": 10.81,
+        "diesel_0": 8.39
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.98,
+        "gasoline_95": 9.61,
+        "gasoline_98": 10.89,
+        "diesel_0": 8.47
       }
     },
     {
@@ -108,7 +109,7 @@
     {
       "city_name": "伊春市",
       "city_code": "230700",
-      "source_url": "http://www.qiyoujiage.com/heilongjiang/yichun.shtml",
+      "source_url": "http://www.qiyoujiage.com/heilongjiang/yichunshi.shtml",
       "current_prices": {
         "gasoline_92": null,
         "gasoline_95": null,

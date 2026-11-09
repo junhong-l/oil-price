@@ -2,94 +2,21 @@
   "province": "宁夏回族自治区",
   "province_code": "640000",
   "currency": "CNY",
-  "cities": [
-    {
-      "city_name": "银川市",
-      "city_code": "640100",
-      "source_url": "http://www.qiyoujiage.com/ningxia/yinchuan.shtml",
-      "current_prices": {
-        "gasoline_92": 8.78,
-        "gasoline_95": 9.27,
-        "gasoline_98": 10.55,
-        "diesel_0": 8.46
-      },
-      "next_prices": {
-        "gasoline_92": 8.86,
-        "gasoline_95": 9.35,
-        "gasoline_98": 10.63,
-        "diesel_0": 8.54
-      }
-    },
-    {
-      "city_name": "石嘴山市",
-      "city_code": "640200",
-      "source_url": "http://www.qiyoujiage.com/ningxia/shizuishan.shtml",
-      "current_prices": {
-        "gasoline_92": 8.78,
-        "gasoline_95": 9.27,
-        "gasoline_98": 10.55,
-        "diesel_0": 8.46
-      },
-      "next_prices": {
-        "gasoline_92": 8.86,
-        "gasoline_95": 9.35,
-        "gasoline_98": 10.63,
-        "diesel_0": 8.54
-      }
-    },
-    {
-      "city_name": "吴忠市",
-      "city_code": "640300",
-      "source_url": "http://www.qiyoujiage.com/ningxia/wuzhong.shtml",
-      "current_prices": {
-        "gasoline_92": 8.78,
-        "gasoline_95": 9.27,
-        "gasoline_98": 10.55,
-        "diesel_0": 8.46
-      },
-      "next_prices": {
-        "gasoline_92": 8.86,
-        "gasoline_95": 9.35,
-        "gasoline_98": 10.63,
-        "diesel_0": 8.54
-      }
-    },
-    {
-      "city_name": "固原市",
-      "city_code": "640400",
-      "source_url": "http://www.qiyoujiage.com/ningxia/guyuan.shtml",
-      "current_prices": {
-        "gasoline_92": 8.78,
-        "gasoline_95": 9.27,
-        "gasoline_98": 10.55,
-        "diesel_0": 8.46
-      },
-      "next_prices": {
-        "gasoline_92": 8.86,
-        "gasoline_95": 9.35,
-        "gasoline_98": 10.63,
-        "diesel_0": 8.54
-      }
-    },
-    {
-      "city_name": "中卫市",
-      "city_code": "640500",
-      "source_url": "http://www.qiyoujiage.com/ningxia/zhongwei.shtml",
-      "current_prices": {
-        "gasoline_92": 8.78,
-        "gasoline_95": 9.27,
-        "gasoline_98": 10.55,
-        "diesel_0": 8.46
-      },
-      "next_prices": {
-        "gasoline_92": 8.86,
-        "gasoline_95": 9.35,
-        "gasoline_98": 10.63,
-        "diesel_0": 8.54
-      }
-    }
-  ],
+  "uniform_pricing": true,
+  "current_prices": {
+    "gasoline_92": 8.78,
+    "gasoline_95": 9.27,
+    "gasoline_98": 10.55,
+    "diesel_0": 8.46
+  },
+  "next_prices": {
+    "gasoline_92": 8.86,
+    "gasoline_95": 9.35,
+    "gasoline_98": 10.63,
+    "diesel_0": 8.54
+  },
+  "cities": [],
   "next_forecast": "up",
   "next_adjustment_at": "2026-11-13T00:00:00+08:00",
-  "fetched_at": "2026-11-09T12:29:12.976352+08:00"
+  "fetched_at": "2026-11-09T13:35:06.731642+08:00"
 }

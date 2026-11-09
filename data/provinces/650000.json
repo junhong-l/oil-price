@@ -2,6 +2,7 @@
   "province": "新疆维吾尔自治区",
   "province_code": "650000",
   "currency": "CNY",
+  "uniform_pricing": false,
   "cities": [
     {
       "city_name": "乌鲁木齐市",
@@ -23,35 +24,35 @@
     {
       "city_name": "克拉玛依市",
       "city_code": "650200",
-      "source_url": "http://www.qiyoujiage.com/xinjiang/kelamayi.shtml",
+      "source_url": "http://www.qiyoujiage.com/xinjiang/karamay.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.76,
+        "gasoline_95": 9.44,
+        "gasoline_98": 10.69,
+        "diesel_0": 8.47
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.84,
+        "gasoline_95": 9.52,
+        "gasoline_98": 10.77,
+        "diesel_0": 8.55
       }
     },
     {
       "city_name": "吐鲁番市",
       "city_code": "650400",
-      "source_url": "http://www.qiyoujiage.com/xinjiang/tulufan.shtml",
+      "source_url": "http://www.qiyoujiage.com/xinjiang/turpan.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.69,
+        "gasoline_95": 9.29,
+        "gasoline_98": 10.55,
+        "diesel_0": 8.35
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.77,
+        "gasoline_95": 9.37,
+        "gasoline_98": 10.63,
+        "diesel_0": 8.43
       }
     },
     {
@@ -91,120 +92,120 @@
     {
       "city_name": "博尔塔拉蒙古自治州",
       "city_code": "652700",
-      "source_url": "http://www.qiyoujiage.com/xinjiang/boertala.shtml",
+      "source_url": "http://www.qiyoujiage.com/xinjiang/bortala.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.69,
+        "gasoline_95": 9.29,
+        "gasoline_98": 10.55,
+        "diesel_0": 8.35
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.77,
+        "gasoline_95": 9.37,
+        "gasoline_98": 10.63,
+        "diesel_0": 8.43
       }
     },
     {
       "city_name": "巴音郭楞蒙古自治州",
       "city_code": "652800",
-      "source_url": "http://www.qiyoujiage.com/xinjiang/bayinguoleng.shtml",
+      "source_url": "http://www.qiyoujiage.com/xinjiang/bayingolin.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.69,
+        "gasoline_95": 9.29,
+        "gasoline_98": 10.55,
+        "diesel_0": 8.35
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.77,
+        "gasoline_95": 9.37,
+        "gasoline_98": 10.63,
+        "diesel_0": 8.43
       }
     },
     {
       "city_name": "阿克苏地区",
       "city_code": "652900",
-      "source_url": "http://www.qiyoujiage.com/xinjiang/akesu.shtml",
+      "source_url": "http://www.qiyoujiage.com/xinjiang/aksu.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.71,
+        "gasoline_95": 9.21,
+        "gasoline_98": 10.71,
+        "diesel_0": 8.42
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.79,
+        "gasoline_95": 9.29,
+        "gasoline_98": 10.79,
+        "diesel_0": 8.5
       }
     },
     {
       "city_name": "克孜勒苏柯尔克孜自治州",
       "city_code": "653000",
-      "source_url": "http://www.qiyoujiage.com/xinjiang/kezilesu.shtml",
+      "source_url": "http://www.qiyoujiage.com/xinjiang/kizilsu.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.69,
+        "gasoline_95": 9.29,
+        "gasoline_98": 10.55,
+        "diesel_0": 8.35
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.77,
+        "gasoline_95": 9.37,
+        "gasoline_98": 10.63,
+        "diesel_0": 8.43
       }
     },
     {
       "city_name": "喀什地区",
       "city_code": "653100",
-      "source_url": "http://www.qiyoujiage.com/xinjiang/kashi.shtml",
+      "source_url": "http://www.qiyoujiage.com/xinjiang/kaxgar.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.69,
+        "gasoline_95": 9.17,
+        "gasoline_98": 10.49,
+        "diesel_0": 8.42
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.77,
+        "gasoline_95": 9.25,
+        "gasoline_98": 10.57,
+        "diesel_0": 8.5
       }
     },
     {
       "city_name": "和田地区",
       "city_code": "653200",
-      "source_url": "http://www.qiyoujiage.com/xinjiang/hetian.shtml",
+      "source_url": "http://www.qiyoujiage.com/xinjiang/hotan.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.71,
+        "gasoline_95": 9.29,
+        "gasoline_98": 10.63,
+        "diesel_0": 8.42
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.79,
+        "gasoline_95": 9.37,
+        "gasoline_98": 10.71,
+        "diesel_0": 8.5
       }
     },
     {
       "city_name": "伊犁哈萨克自治州",
       "city_code": "654000",
-      "source_url": "http://www.qiyoujiage.com/xinjiang/yili.shtml",
+      "source_url": "http://www.qiyoujiage.com/xinjiang/ili.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.85,
+        "gasoline_95": 9.34,
+        "gasoline_98": 10.57,
+        "diesel_0": 8.35
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.93,
+        "gasoline_95": 9.42,
+        "gasoline_98": 10.65,
+        "diesel_0": 8.43
       }
     },
     {
@@ -227,18 +228,18 @@
     {
       "city_name": "阿勒泰地区",
       "city_code": "654300",
-      "source_url": "http://www.qiyoujiage.com/xinjiang/aletai.shtml",
+      "source_url": "http://www.qiyoujiage.com/xinjiang/altay.shtml",
       "current_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.83,
+        "gasoline_95": 9.46,
+        "gasoline_98": 10.78,
+        "diesel_0": 8.47
       },
       "next_prices": {
-        "gasoline_92": null,
-        "gasoline_95": null,
-        "gasoline_98": null,
-        "diesel_0": null
+        "gasoline_92": 8.91,
+        "gasoline_95": 9.54,
+        "gasoline_98": 10.86,
+        "diesel_0": 8.55
       }
     },
     {

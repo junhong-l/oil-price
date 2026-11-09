@@ -2,6 +2,7 @@
   "province": "贵州省",
   "province_code": "520000",
   "currency": "CNY",
+  "uniform_pricing": false,
   "cities": [
     {
       "city_name": "贵阳市",
@@ -159,5 +160,5 @@
   ],
   "next_forecast": "up",
   "next_adjustment_at": "2026-11-13T00:00:00+08:00",
-  "fetched_at": "2026-11-09T12:29:12.976352+08:00"
+  "fetched_at": "2026-11-09T13:35:06.731642+08:00"
 }
