@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T13:44:42.601132+08:00",
+  "generated_at": "2026-11-09T13:59:36.986930+08:00",
   "configured_provinces_complete": false,
   "provinces": [
     {
@@ -152,9 +152,26 @@
       "uniform_pricing": true,
       "path": "provinces/370000.json",
       "expected_cities": 16,
-      "successful_cities": 16,
-      "missing_cities": [],
-      "province_page_ok": true
+      "successful_cities": 0,
+      "missing_cities": [
+        "370100",
+        "370200",
+        "370300",
+        "370400",
+        "370500",
+        "370600",
+        "370700",
+        "370800",
+        "370900",
+        "371000",
+        "371100",
+        "371300",
+        "371400",
+        "371500",
+        "371600",
+        "371700"
+      ],
+      "province_page_ok": false
     },
     {
       "province_code": "410000",
@@ -252,8 +269,10 @@
       "uniform_pricing": false,
       "path": "provinces/530000.json",
       "expected_cities": 16,
-      "successful_cities": 16,
-      "missing_cities": [],
+      "successful_cities": 15,
+      "missing_cities": [
+        "533400"
+      ],
       "province_page_ok": true
     },
     {
@@ -262,8 +281,9 @@
       "uniform_pricing": false,
       "path": "provinces/540000.json",
       "expected_cities": 7,
-      "successful_cities": 5,
+      "successful_cities": 4,
       "missing_cities": [
+        "540200",
         "540300",
         "542500"
       ],
